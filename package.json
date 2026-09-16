@@ -1,0 +1,17 @@
+{
+  "name": "momin-jlpt-mock",
+  "version": "1.0.0",
+  "description": "Momin's Official JLPT Mock Examination Platform with Telegram Integration",
+  "main": "index.html",
+  "scripts": {
+    "start": "python server.py"
+  },
+  "keywords": [
+    "jlpt",
+    "japanese",
+    "mock-test",
+    "momin"
+  ],
+  "author": "Momin",
+  "license": "MIT"
+}

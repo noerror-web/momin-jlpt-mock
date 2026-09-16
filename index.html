@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momin's JLPT Online Mock Examination System | 日本語能力試験</title>
+  <meta name="description" content="Interactive JLPT Mock Testing platform by Momin for N1 to N5 students with instant score evaluation and automated score reporting." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dark-theme">
+  <div id="app" class="app-container">
+    
+    <!-- TOP HEADER -->
+    <header class="app-header">
+      <div class="logo-group">
+        <div class="logo-icon"><i class="fa-solid fa-torii-gate"></i></div>
+        <div class="logo-text">
+          <span class="brand-title">Momin JLPT Master</span>
+          <span class="brand-sub">モミン日本語能力試験 モックテスト</span>
+        </div>
+      </div>
+      
+      <div class="header-controls">
+        <div class="test-selector-wrapper">
+          <i class="fa-solid fa-book-bookmark"></i>
+          <select id="testSelect" class="styled-select">
+            <option value="data/sample_n5.json">JLPT N5 - Basic Mock Test</option>
+            <option value="data/sample_n3.json">JLPT N3 - Intermediate Mock Test</option>
+          </select>
+        </div>
+
+        <div class="mode-toggle-group">
+          <button id="modeExamBtn" class="mode-btn active" title="Official Timed Mode">
+            <i class="fa-solid fa-stopwatch"></i> Exam Mode
+          </button>
+          <button id="modePracticeBtn" class="mode-btn" title="Instant Explanation Mode">
+            <i class="fa-solid fa-graduation-cap"></i> Practice Mode
+          </button>
+        </div>
+
+        <button id="openConfigBtn" class="icon-btn" title="Telegram Bot Settings">
+          <i class="fa-paper-plane"></i>
+          <span class="btn-badge" id="tgConfigBadge"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- WELCOME / REGISTRATION SCREEN -->
+    <main id="welcomeScreen" class="screen-view active">
+      <div class="hero-banner">
+        <div class="hero-badge"><i class="fa-solid fa-award"></i> Official Format Mock Exams</div>
+        <h1 id="welcomeTitle">JLPT N5 Mock Examination</h1>
+        <p id="welcomeDesc">Test your Japanese language proficiency under realistic exam conditions with automated score analytics and Telegram teacher reporting.</p>
+        
+        <div class="exam-stats-grid">
+          <div class="stat-card">
+            <i class="fa-regular fa-clock"></i>
+            <div>
+              <span id="statTimeLimit" class="stat-value">45 mins</span>
+              <span class="stat-label">Time Limit</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <i class="fa-solid fa-list-check"></i>
+            <div>
+              <span id="statTotalQuestions" class="stat-value">9 Questions</span>
+              <span class="stat-label">Total Questions</span>
+            </div>
+          </div>
+          <div class="stat-card">
+            <i class="fa-solid fa-bullseye"></i>
+            <div>
+              <span id="statPassingScore" class="stat-value">80 / 180</span>
+              <span class="stat-label">Passing Target</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Student Details Registration Form -->
+        <div class="student-form-card">
+          <h3><i class="fa-solid fa-user-pen"></i> Student Information</h3>
+          <p class="form-help">Enter your details so your teacher receives your score report on Telegram.</p>
+          <div class="form-row">
+            <div class="input-group">
+              <label for="studentName"><i class="fa-regular fa-user"></i> Full Name *</label>
+              <input type="text" id="studentName" placeholder="e.g. Kenji Sato / John Doe" required />
+            </div>
+            <div class="input-group">
+              <label for="studentId"><i class="fa-solid fa-id-card"></i> Student ID / Class *</label>
+              <input type="text" id="studentId" placeholder="e.g. STU-2026-001 or Class 3B" required />
+            </div>
+          </div>
+          <button id="startExamBtn" class="btn btn-primary btn-lg btn-glow">
+            <span>Start Mock Examination</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- EXAM RUNNER SCREEN -->
+    <main id="examScreen" class="screen-view">
+      <!-- Exam Control Bar -->
+      <div class="exam-control-bar">
+        <div class="section-tabs" id="sectionTabsContainer">
+          <!-- Dynamic Section Tabs inserted here -->
+        </div>
+
+        <div class="timer-box" id="timerBox">
+          <i class="fa-regular fa-clock"></i>
+          <span id="timerDisplay">45:00</span>
+        </div>
+      </div>
+
+      <!-- Main Question Layout -->
+      <div class="exam-workspace">
+        <div class="question-panel">
+          <!-- Optional Passage Box -->
+          <div id="passageContainer" class="passage-box hidden">
+            <div class="passage-header">
+              <i class="fa-solid fa-book-open"></i> Reading Passage (読解本文)
+            </div>
+            <div id="passageText" class="passage-content"></div>
+          </div>
+
+          <!-- Question Content -->
+          <div class="question-box">
+            <div class="question-meta">
+              <span id="questionNumBadge" class="q-badge">Question 1 of 9</span>
+              <span id="sectionTitleBadge" class="section-badge">Vocabulary</span>
+              <button id="flagBtn" class="flag-btn"><i class="fa-regular fa-bookmark"></i> Flag</button>
+            </div>
+
+            <div id="questionKanji" class="kanji-display hidden"></div>
+            <div id="questionText" class="question-statement">Loading question...</div>
+
+            <!-- Options Grid -->
+            <div id="optionsContainer" class="options-list">
+              <!-- Options dynamic -->
+            </div>
+
+            <!-- Practice Mode Explanation Box -->
+            <div id="explanationBox" class="explanation-box hidden">
+              <div class="exp-title"><i class="fa-solid fa-lightbulb"></i> Explanation & Vocabulary Note</div>
+              <div id="explanationText" class="exp-body"></div>
+            </div>
+          </div>
+
+          <!-- Navigation Footer -->
+          <div class="exam-footer">
+            <button id="prevQBtn" class="btn btn-secondary"><i class="fa-solid fa-chevron-left"></i> Previous</button>
+            <div class="footer-center">
+              <span id="progressStatusText">0 of 9 answered</span>
+            </div>
+            <button id="nextQBtn" class="btn btn-secondary">Next <i class="fa-solid fa-chevron-right"></i></button>
+            <button id="submitExamBtn" class="btn btn-success btn-glow"><i class="fa-solid fa-paper-plane"></i> Submit Exam</button>
+          </div>
+        </div>
+
+        <!-- Question Navigator Drawer / Sidebar -->
+        <aside class="navigator-sidebar">
+          <div class="sidebar-header">
+            <h4><i class="fa-solid fa-border-all"></i> Question Palette</h4>
+          </div>
+          <div id="questionPalette" class="palette-grid">
+            <!-- Dynamic Q-Buttons -->
+          </div>
+          <div class="palette-legend">
+            <div class="legend-item"><span class="dot answered"></span> Answered</div>
+            <div class="legend-item"><span class="dot current"></span> Current</div>
+            <div class="legend-item"><span class="dot flagged"></span> Flagged</div>
+            <div class="legend-item"><span class="dot unanswered"></span> Unanswered</div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <!-- RESULTS & SCORECARD SCREEN -->
+    <main id="resultScreen" class="screen-view">
+      <div class="result-container">
+        <!-- Hero Score Header -->
+        <div class="result-hero-card">
+          <div class="verdict-badge-wrapper">
+            <span id="passFailBadge" class="verdict-badge pass">PASSED / 合格</span>
+          </div>
+          
+          <h2 id="resultStudentHeading">Kenji Sato's Examination Scorecard</h2>
+          <p id="resultTestTitle" class="result-sub">JLPT N5 Full Mock Test 01</p>
+
+          <div class="score-circle-container">
+            <svg class="score-ring-svg" viewBox="0 0 120 120">
+              <defs>
+                <linearGradient id="scoreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#6366f1" />
+                  <stop offset="100%" stop-color="#ec4899" />
+                </linearGradient>
+              </defs>
+              <circle class="ring-bg" cx="60" cy="60" r="52"></circle>
+              <circle id="scoreRingProgress" class="ring-progress" cx="60" cy="60" r="52" stroke-dasharray="326.7" stroke-dashoffset="65"></circle>
+            </svg>
+            <div class="score-ring-text">
+              <span id="scorePercentValue" class="percent-val">85%</span>
+              <span id="scoreRawValue" class="raw-val">153 / 180</span>
+            </div>
+          </div>
+
+          <!-- Telegram Push Status -->
+          <div id="telegramStatusBox" class="tg-status-bar">
+            <i class="fa-brands fa-telegram"></i>
+            <span id="tgStatusMsg">Sending score report to Telegram teacher channel...</span>
+          </div>
+        </div>
+
+        <!-- Section Breakdown Cards -->
+        <div class="section-scores-container">
+          <h3><i class="fa-solid fa-chart-column"></i> Section Performance</h3>
+          <div id="sectionBreakdownGrid" class="section-grid">
+            <!-- Dynamic section score bars -->
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="result-actions">
+          <button id="reviewAnswersBtn" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Review Answers</button>
+          <button id="resendTgBtn" class="btn btn-secondary"><i class="fa-brands fa-telegram"></i> Re-push to Telegram</button>
+          <button id="retakeExamBtn" class="btn btn-outline"><i class="fa-solid fa-rotate-right"></i> Take Another Test</button>
+        </div>
+
+        <!-- Answer Review List -->
+        <div id="answerReviewSection" class="review-section hidden">
+          <div class="review-header">
+            <h3><i class="fa-solid fa-list-check"></i> Detailed Answer Key & Explanations</h3>
+            <div class="review-filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="wrong">Incorrect Only</button>
+              <button class="filter-btn" data-filter="correct">Correct Only</button>
+            </div>
+          </div>
+          <div id="reviewQuestionsList" class="review-list">
+            <!-- Dynamic review item cards -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- TELEGRAM CONFIG MODAL -->
+    <div id="configModal" class="modal-backdrop">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3><i class="fa-brands fa-telegram"></i> Telegram Bot Integration Setup</h3>
+          <button id="closeConfigBtn" class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-desc">Configure your Telegram Bot credentials to receive student mock test submission reports automatically.</p>
+
+          <div class="input-group">
+            <label for="tgBotToken">Telegram Bot Token</label>
+            <input type="password" id="tgBotToken" placeholder="123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ" />
+            <small class="help-text">From Telegram's @BotFather</small>
+          </div>
+
+          <div class="input-group">
+            <label for="tgChatId">Telegram Chat ID / Group ID</label>
+            <input type="text" id="tgChatId" placeholder="e.g. -100123456789 or your personal user ID" />
+            <small class="help-text">Your Telegram user ID or group ID where scores should be sent.</small>
+          </div>
+
+          <div class="modal-actions">
+            <button id="testTgConnectionBtn" class="btn btn-secondary"><i class="fa-solid fa-plug"></i> Test Connection</button>
+            <button id="saveConfigBtn" class="btn btn-primary"><i class="fa-solid fa-check"></i> Save Credentials</button>
+          </div>
+          
+          <div id="tgTestResult" class="tg-test-feedback hidden"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
