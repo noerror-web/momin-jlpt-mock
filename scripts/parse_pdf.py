@@ -44,6 +44,7 @@ def parse_text_to_quiz_json(text_content, level="N5", title="Custom JLPT Mock Te
         "weight": 60,
         "questions": []
       }
+      # Listening (聴解) questions automatically skipped per user policy
     ]
 
     # Simple regex parsing heuristic for questions & options
