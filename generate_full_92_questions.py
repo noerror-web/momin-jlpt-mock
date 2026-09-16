@@ -128,19 +128,19 @@ quiz_data = {
     "sections": [
         {
             "id": "vocab",
-            "title": "言語知識（文字・語彙）",
+            "title": "Language Knowledge (Vocabulary)",
             "weight": 60,
             "questions": generate_vocab_questions()
         },
         {
             "id": "grammar",
-            "title": "言語知識（文法）",
+            "title": "Language Knowledge (Grammar)",
             "weight": 60,
             "questions": generate_grammar_questions()
         },
         {
             "id": "reading",
-            "title": "読解（Reading Comprehension）",
+            "title": "Reading Comprehension",
             "weight": 60,
             "questions": generate_reading_questions()
         }

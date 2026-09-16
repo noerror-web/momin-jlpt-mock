@@ -567,7 +567,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     DOM.tgStatusMsg.textContent = '📤 Sending score report to Telegram...';
 
-    // Format rich Telegram markdown payload
+    const sectionEngMap = {
+      'vocab': 'Language Knowledge (Vocabulary)',
+      'grammar': 'Language Knowledge (Grammar)',
+      'reading': 'Reading Comprehension'
+    };
+
+    // Format rich Telegram markdown payload in English
     const messageText = `
 🎓 *NEW JLPT MOCK TEST SUBMISSION* 🎓
 ━━━━━━━━━━━━━━━━━━━━
@@ -577,10 +583,13 @@ document.addEventListener('DOMContentLoaded', () => {
 ⏰ *Time Spent:* ${results.timeSpentFormatted}
 
 📊 *TOTAL SCORE:* ${results.totalScore} / ${results.maxPossibleScore} (${results.percentage}%)
-🏆 *STATUS:* ${results.passed ? '✅ PASSED / 合格' : '❌ FAILED / 不合格'}
+🏆 *STATUS:* ${results.passed ? '✅ PASSED' : '❌ FAILED'}
 
 *Section Performance:*
-${Object.values(results.sectionScores).map(sec => `• ${escapeMarkdown(sec.title)}: ${sec.score}/${sec.maxScore} (${sec.correct}/${sec.total})`).join('\n')}
+${Object.entries(results.sectionScores).map(([secId, sec]) => {
+  const engTitle = sectionEngMap[secId] || sec.title;
+  return `• ${escapeMarkdown(engTitle)}: ${sec.score}/${sec.maxScore} (${sec.correct}/${sec.total})`;
+}).join('\n')}
 ━━━━━━━━━━━━━━━━━━━━
 📅 *Submitted:* ${new Date().toLocaleString()}
 `.trim();
