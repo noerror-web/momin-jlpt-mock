@@ -96,7 +96,7 @@ def generate_reading_questions():
     questions = []
     for q_num in range(1, 5):
         ans_choice = reading_ans[q_num] - 1
-        questions.append({
+        q_obj = {
             "id": f"q_reading_{q_num}",
             "num": q_num,
             "sectionId": "reading",
@@ -111,7 +111,11 @@ def generate_reading_questions():
             ],
             "answer": ans_choice,
             "explanation": f"Official Tanki Master Answer: Choice ({ans_choice + 1})"
-        })
+        }
+        if q_num == 4:
+            q_obj["questionImage"] = "public/n5_diagrams/reading_page_46.png"
+
+        questions.append(q_obj)
     return questions
 
 quiz_data = {

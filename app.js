@@ -309,8 +309,15 @@ document.addEventListener('DOMContentLoaded', () => {
     DOM.sectionTitleBadge.textContent = q.sectionTitle;
     DOM.flagBtn.classList.toggle('flagged', state.flaggedQuestions.has(q.id));
 
-    // Passage box (Furigana HTML)
-    if (q.passageHtml || q.passage) {
+    // Passage box or Question Diagram Image
+    if (q.questionImage) {
+      DOM.passageContainer.classList.remove('hidden');
+      DOM.passageText.innerHTML = `
+        <div class="question-diagram-box" style="text-align:center; padding:0.5rem;">
+          <img src="${q.questionImage}" alt="Question Diagram / Notice" style="max-width:100%; max-height:360px; object-fit:contain; border-radius:12px; border:1px solid var(--border-color); box-shadow:0 6px 20px rgba(0,0,0,0.3);" />
+        </div>
+      `;
+    } else if (q.passageHtml || q.passage) {
       DOM.passageContainer.classList.remove('hidden');
       DOM.passageText.innerHTML = q.passageHtml || q.passage;
     } else {

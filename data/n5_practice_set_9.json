@@ -1407,7 +1407,8 @@
             "4 あさごはんを たべました。"
           ],
           "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
+          "explanation": "Official Tanki Master Answer: Choice (2)",
+          "questionImage": "public/n5_diagrams/reading_page_46.png"
         }
       ]
     }
