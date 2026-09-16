@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
     isExamMode: true,
     studentInfo: { name: '', id: '' },
     telegramConfig: {
-      botToken: localStorage.getItem('jlpt_tg_botToken') || '',
-      chatId: localStorage.getItem('jlpt_tg_chatId') || ''
+      botToken: localStorage.getItem('jlpt_tg_botToken') || '8863407575:AAFICc_QFXygIzV-3h_Ia4U7ZRmnaOdpy9Y',
+      chatId: localStorage.getItem('jlpt_tg_chatId') || '5479582136'
     }
   };
 

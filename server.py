@@ -30,8 +30,8 @@ class JLPTMockTestHandler(http.server.SimpleHTTPRequestHandler):
             
             try:
                 payload = json.loads(post_data.decode('utf-8'))
-                bot_token = payload.get('botToken') or os.environ.get('TELEGRAM_BOT_TOKEN')
-                chat_id = payload.get('chatId') or os.environ.get('TELEGRAM_CHAT_ID')
+                bot_token = payload.get('botToken') or os.environ.get('TELEGRAM_BOT_TOKEN') or '8863407575:AAFICc_QFXygIzV-3h_Ia4U7ZRmnaOdpy9Y'
+                chat_id = payload.get('chatId') or os.environ.get('TELEGRAM_CHAT_ID') or '5479582136'
                 message = payload.get('message', '')
 
                 if not bot_token or not chat_id:
