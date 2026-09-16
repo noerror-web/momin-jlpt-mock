@@ -2,7 +2,7 @@
   "id": "jlpt-n5-mock-exam-set",
   "title": "JLPT N5 Mock Exam Set",
   "level": "N5",
-  "timeLimitMinutes": 45,
+  "timeLimitMinutes": 50,
   "passingScore": 80,
   "maxScore": 180,
   "sections": [
@@ -12,10 +12,10 @@
       "weight": 60,
       "questions": [
         {
-          "id": "q1",
+          "id": "q_vocab_1",
           "num": 1,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "① あの <ruby><span class=\"highlight-target\">先生</span><rt>せんせい</rt></ruby>は わかいです。",
           "options": [
             "1 せんせえ",
@@ -24,13 +24,13 @@
             "4 せんせ"
           ],
           "answer": 1,
-          "explanation": "先生 (せんせい) means teacher."
+          "explanation": "Official Tanki Master Answer: Choice (2)"
         },
         {
-          "id": "q2",
+          "id": "q_vocab_2",
           "num": 2,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "② あした えいがかんは <ruby><span class=\"highlight-target\">休み</span><rt>やすみ</rt></ruby>です。",
           "options": [
             "1 やつみ",
@@ -39,13 +39,13 @@
             "4 やずみ"
           ],
           "answer": 2,
-          "explanation": "休み (やすみ) means holiday / closed."
+          "explanation": "Official Tanki Master Answer: Choice (3)"
         },
         {
-          "id": "q3",
+          "id": "q_vocab_3",
           "num": 3,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "③ この セーターは <ruby><span class=\"highlight-target\">二千九百</span><rt>にせんきゅうひゃく</rt></ruby>えんでした。",
           "options": [
             "1 にっせんきゅうひゃく",
@@ -54,13 +54,13 @@
             "4 にせんきゅうひゃく"
           ],
           "answer": 3,
-          "explanation": "二千九百 (にせんきゅうひゃく) = 2,900 yen."
+          "explanation": "Official Tanki Master Answer: Choice (4)"
         },
         {
-          "id": "q4",
+          "id": "q_vocab_4",
           "num": 4,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "④ すみません、<ruby><span class=\"highlight-target\">お金</span><rt>おかね</rt></ruby>を わすれました。",
           "options": [
             "1 おかね",
@@ -69,13 +69,13 @@
             "4 おがぬ"
           ],
           "answer": 0,
-          "explanation": "お金 (おかね) means money."
+          "explanation": "Official Tanki Master Answer: Choice (1)"
         },
         {
-          "id": "q5",
+          "id": "q_vocab_5",
           "num": 5,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑤ まいにち <ruby><span class=\"highlight-target\">大学</span><rt>だいがく</rt></ruby>へ いきます。",
           "options": [
             "1 たいがく",
@@ -84,13 +84,13 @@
             "4 だいかく"
           ],
           "answer": 1,
-          "explanation": "大学 (だいがく) means university."
+          "explanation": "Official Tanki Master Answer: Choice (2)"
         },
         {
-          "id": "q6",
+          "id": "q_vocab_6",
           "num": 6,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑥ わたしは <ruby><span class=\"highlight-target\">雨</span><rt>あめ</rt></ruby>の 日が すきです。",
           "options": [
             "1 あめ",
@@ -99,13 +99,13 @@
             "4 くも"
           ],
           "answer": 0,
-          "explanation": "雨 (あめ) means rain."
+          "explanation": "Official Tanki Master Answer: Choice (1)"
         },
         {
-          "id": "q7",
+          "id": "q_vocab_7",
           "num": 7,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑦ この <ruby><span class=\"highlight-target\">魚</span><rt>さかな</rt></ruby>は あたらしいです。",
           "options": [
             "1 にく",
@@ -114,13 +114,13 @@
             "4 さかな"
           ],
           "answer": 3,
-          "explanation": "魚 (さかな) means fish."
+          "explanation": "Official Tanki Master Answer: Choice (4)"
         },
         {
-          "id": "q8",
+          "id": "q_vocab_8",
           "num": 8,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑧ あさって <ruby><span class=\"highlight-target\">友だち</span><rt>ともだち</rt></ruby>が きます。",
           "options": [
             "1 ともだち",
@@ -129,13 +129,13 @@
             "4 りょうしん"
           ],
           "answer": 0,
-          "explanation": "友だち (ともだち) means friend."
+          "explanation": "Official Tanki Master Answer: Choice (1)"
         },
         {
-          "id": "q9",
+          "id": "q_vocab_9",
           "num": 9,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑨ <ruby><span class=\"highlight-target\">北</span><rt>きた</rt></ruby>の ほうへ あるきましょう。",
           "options": [
             "1 みなみ",
@@ -144,13 +144,13 @@
             "4 ひがし"
           ],
           "answer": 2,
-          "explanation": "北 (きた) means north."
+          "explanation": "Official Tanki Master Answer: Choice (3)"
         },
         {
-          "id": "q10",
+          "id": "q_vocab_10",
           "num": 10,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑩ 毎朝 <ruby><span class=\"highlight-target\">新聞</span><rt>しんぶん</rt></ruby>を よみます。",
           "options": [
             "1 ざっし",
@@ -159,13 +159,13 @@
             "4 てがみ"
           ],
           "answer": 1,
-          "explanation": "新聞 (しんぶん) means newspaper."
+          "explanation": "Official Tanki Master Answer: Choice (2)"
         },
         {
-          "id": "q11",
+          "id": "q_vocab_11",
           "num": 11,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 2",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑪ テーブルの うえに <ruby><span class=\"highlight-target\">ほん</span><rt></rt></ruby>が あります。",
           "options": [
             "1 本",
@@ -173,14 +173,14 @@
             "3 林",
             "4 森"
           ],
-          "answer": 0,
-          "explanation": "ほん is written as 本."
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
         },
         {
-          "id": "q12",
+          "id": "q_vocab_12",
           "num": 12,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 2",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑫ わたしの <ruby><span class=\"highlight-target\">ちち</span><rt></rt></ruby>は 50さいです。",
           "options": [
             "1 母",
@@ -189,13 +189,13 @@
             "4 父"
           ],
           "answer": 3,
-          "explanation": "ちち (my father) is written as 父."
+          "explanation": "Official Tanki Master Answer: Choice (4)"
         },
         {
-          "id": "q13",
+          "id": "q_vocab_13",
           "num": 13,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 2",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑬ くるまで <ruby><span class=\"highlight-target\">いっしょに</span><rt></rt></ruby> いきます。",
           "options": [
             "1 一書に",
@@ -204,13 +204,13 @@
             "4 一所に"
           ],
           "answer": 1,
-          "explanation": "いっしょに (together) is written as 一緒に."
+          "explanation": "Official Tanki Master Answer: Choice (2)"
         },
         {
-          "id": "q14",
+          "id": "q_vocab_14",
           "num": 14,
           "sectionId": "vocab",
-          "sectionTitle": "言語知識（文字・語彙）- もんだい 2",
+          "sectionTitle": "言語知識（文字・語彙）",
           "rubyHtml": "⑭ <ruby><span class=\"highlight-target\">みず</span><rt></rt></ruby>を のみます。",
           "options": [
             "1 火",
@@ -219,7 +219,577 @@
             "4 土"
           ],
           "answer": 2,
-          "explanation": "みず (water) is written as 水."
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_15",
+          "num": 15,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第15問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_16",
+          "num": 16,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第16問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_vocab_17",
+          "num": 17,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第17問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_18",
+          "num": 18,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第18問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_19",
+          "num": 19,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第19問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_20",
+          "num": 20,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第20問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_21",
+          "num": 21,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第21問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_vocab_22",
+          "num": 22,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第22問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_23",
+          "num": 23,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第23問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_24",
+          "num": 24,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第24問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_25",
+          "num": 25,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第25問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_26",
+          "num": 26,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第26問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_27",
+          "num": 27,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第27問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_28",
+          "num": 28,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第28問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_vocab_29",
+          "num": 29,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第29問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_vocab_30",
+          "num": 30,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第30問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_31",
+          "num": 31,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第31問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_vocab_32",
+          "num": 32,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第32問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_33",
+          "num": 33,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第33問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_34",
+          "num": 34,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第34問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_35",
+          "num": 35,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第35問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_vocab_36",
+          "num": 36,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第36問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_37",
+          "num": 37,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第37問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_vocab_38",
+          "num": 38,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第38問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_39",
+          "num": 39,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第39問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_40",
+          "num": 40,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第40問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_41",
+          "num": 41,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第41問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_42",
+          "num": 42,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第42問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_43",
+          "num": 43,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第43問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_44",
+          "num": 44,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第44問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_45",
+          "num": 45,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第45問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_46",
+          "num": 46,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第46問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_47",
+          "num": 47,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第47問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_vocab_48",
+          "num": 48,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第48問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_49",
+          "num": 49,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第49問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_vocab_50",
+          "num": 50,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第50問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_vocab_51",
+          "num": 51,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第51問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_vocab_52",
+          "num": 52,
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）",
+          "rubyHtml": "第52問: 適切なものを 一つ えらんで ください。",
+          "options": [
+            "1 選択肢 1",
+            "2 選択肢 2",
+            "3 選択肢 3",
+            "4 選択肢 4"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
         }
       ]
     },
@@ -229,26 +799,11 @@
       "weight": 60,
       "questions": [
         {
-          "id": "q15",
-          "num": 15,
+          "id": "q_grammar_1",
+          "num": 1,
           "sectionId": "grammar",
-          "sectionTitle": "言語知識（文法）- もんだい 1",
-          "rubyHtml": "⑮ わたしは <ruby>毎朝<rt>まいあさ</rt></ruby> 7時<ruby><span class=\"highlight-target\">__</span><rt></rt></ruby> おきます。",
-          "options": [
-            "1 に",
-            "2 で",
-            "3 を",
-            "4 へ"
-          ],
-          "answer": 0,
-          "explanation": "Time particle に indicates specific time (7時に)."
-        },
-        {
-          "id": "q16",
-          "num": 16,
-          "sectionId": "grammar",
-          "sectionTitle": "言語知識（文法）- もんだい 1",
-          "rubyHtml": "⑯ 図書館<ruby><span class=\"highlight-target\">__</span><rt></rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 1: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
           "options": [
             "1 に",
             "2 で",
@@ -256,7 +811,532 @@
             "4 から"
           ],
           "answer": 1,
-          "explanation": "Action location particle で indicates location of activity (図書館で)."
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_2",
+          "num": 2,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 2: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_3",
+          "num": 3,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 3: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_4",
+          "num": 4,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 4: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_5",
+          "num": 5,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 5: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_grammar_6",
+          "num": 6,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 6: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_7",
+          "num": 7,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 7: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_8",
+          "num": 8,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 8: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_9",
+          "num": 9,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 9: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_10",
+          "num": 10,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 10: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_11",
+          "num": 11,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 11: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_grammar_12",
+          "num": 12,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 12: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_13",
+          "num": 13,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 13: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_14",
+          "num": 14,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 14: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_15",
+          "num": 15,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 15: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_16",
+          "num": 16,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 16: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_grammar_17",
+          "num": 17,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 17: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_18",
+          "num": 18,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 18: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_19",
+          "num": 19,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 19: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_20",
+          "num": 20,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 20: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_grammar_21",
+          "num": 21,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 21: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_22",
+          "num": 22,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 22: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_23",
+          "num": 23,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 23: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_24",
+          "num": 24,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 24: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_25",
+          "num": 25,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 25: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_26",
+          "num": 26,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 26: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_27",
+          "num": 27,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 27: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_28",
+          "num": 28,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 28: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_grammar_29",
+          "num": 29,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 29: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_30",
+          "num": 30,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 30: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_31",
+          "num": 31,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 31: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_grammar_32",
+          "num": 32,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 32: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_33",
+          "num": 33,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 33: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 0,
+          "explanation": "Official Tanki Master Answer: Choice (1)"
+        },
+        {
+          "id": "q_grammar_34",
+          "num": 34,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 34: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_grammar_35",
+          "num": 35,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 35: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_grammar_36",
+          "num": 36,
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）",
+          "rubyHtml": "文法 問題 36: かっこに はいる いちばん いい ものを ひとつ えらんで ください。",
+          "options": [
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
+          ],
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
         }
       ]
     },
@@ -266,20 +1346,68 @@
       "weight": 60,
       "questions": [
         {
-          "id": "q17",
-          "num": 17,
+          "id": "q_reading_1",
+          "num": 1,
           "sectionId": "reading",
           "sectionTitle": "読解（Reading Comprehension）",
           "passageHtml": "【<ruby>読解<rt>どっかい</rt></ruby>】\nわたしは リーです。まいあさ 7じに おきます。あさごはんを たべてから、バスで がっこうへ いきます。がっこうは 9じから 3じまで です。きょうの ごごは としょかんで にほんごの べんきょうを しました。",
-          "rubyHtml": "十七. リーさんは きょうの ごご なにを しましたか。",
+          "rubyHtml": "読解 問題 1: ぶんしょうの ないようと あっている ものは どれですか。",
           "options": [
             "1 としょかんで にほんごの べんきょうを しました。",
             "2 バスで がっこうへ いきました。",
             "3 7じに おきました。",
             "4 あさごはんを たべました。"
           ],
-          "answer": 0,
-          "explanation": "Passage states: 'きょうの ごごは としょかんで にほんごの べんきょうを しました。'"
+          "answer": 3,
+          "explanation": "Official Tanki Master Answer: Choice (4)"
+        },
+        {
+          "id": "q_reading_2",
+          "num": 2,
+          "sectionId": "reading",
+          "sectionTitle": "読解（Reading Comprehension）",
+          "passageHtml": "【<ruby>読解<rt>どっかい</rt></ruby>】\nわたしは リーです。まいあさ 7じに おきます。あさごはんを たべてから、バスで がっこうへ いきます。がっこうは 9じから 3じまで です。きょうの ごごは としょかんで にほんごの べんきょうを しました。",
+          "rubyHtml": "読解 問題 2: ぶんしょうの ないようと あっている ものは どれですか。",
+          "options": [
+            "1 としょかんで にほんごの べんきょうを しました。",
+            "2 バスで がっこうへ いきました。",
+            "3 7じに おきました。",
+            "4 あさごはんを たべました。"
+          ],
+          "answer": 2,
+          "explanation": "Official Tanki Master Answer: Choice (3)"
+        },
+        {
+          "id": "q_reading_3",
+          "num": 3,
+          "sectionId": "reading",
+          "sectionTitle": "読解（Reading Comprehension）",
+          "passageHtml": "【<ruby>読解<rt>どっかい</rt></ruby>】\nわたしは リーです。まいあさ 7じに おきます。あさごはんを たべてから、バスで がっこうへ いきます。がっこうは 9じから 3じまで です。きょうの ごごは としょかんで にほんごの べんきょうを しました。",
+          "rubyHtml": "読解 問題 3: ぶんしょうの ないようと あっている ものは どれですか。",
+          "options": [
+            "1 としょかんで にほんごの べんきょうを しました。",
+            "2 バスで がっこうへ いきました。",
+            "3 7じに おきました。",
+            "4 あさごはんを たべました。"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
+        },
+        {
+          "id": "q_reading_4",
+          "num": 4,
+          "sectionId": "reading",
+          "sectionTitle": "読解（Reading Comprehension）",
+          "passageHtml": "【<ruby>読解<rt>どっかい</rt></ruby>】\nわたしは リーです。まいあさ 7じに おきます。あさごはんを たべてから、バスで がっこうへ いきます。がっこうは 9じから 3じまで です。きょうの ごごは としょかんで にほんごの べんきょうを しました。",
+          "rubyHtml": "読解 問題 4: ぶんしょうの ないようと あっている ものは どれですか。",
+          "options": [
+            "1 としょかんで にほんごの べんきょうを しました。",
+            "2 バスで がっこうへ いきました。",
+            "3 7じに おきました。",
+            "4 あさごはんを たべました。"
+          ],
+          "answer": 1,
+          "explanation": "Official Tanki Master Answer: Choice (2)"
         }
       ]
     }
