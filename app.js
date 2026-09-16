@@ -317,12 +317,22 @@ document.addEventListener('DOMContentLoaded', () => {
       DOM.passageContainer.classList.add('hidden');
     }
 
-    // Kanji & Question Text
-    if (q.kanji) {
+    // Single Question Card Snippet Rendering
+    if (q.questionCardImage) {
+      DOM.questionKanji.classList.remove('hidden');
+      DOM.questionKanji.innerHTML = `
+        <div class="question-snippet-card" style="background:#ffffff; border-radius:12px; padding:1.25rem; margin-bottom:1.5rem; text-align:center; box-shadow:0 8px 24px rgba(0,0,0,0.4);">
+          <img src="${q.questionCardImage}" alt="Question Card" style="max-width:100%; max-height:280px; object-fit:contain; border-radius:6px; display:inline-block;" />
+        </div>
+      `;
+      DOM.questionText.textContent = `Select your answer for Question ${state.currentIndex + 1}:`;
+    } else if (q.kanji) {
       DOM.questionKanji.classList.remove('hidden');
       DOM.questionKanji.textContent = q.kanji;
+      DOM.questionText.innerHTML = formatJapaneseText(q.text);
     } else {
       DOM.questionKanji.classList.add('hidden');
+      DOM.questionText.innerHTML = formatJapaneseText(q.text);
     }
     DOM.questionText.innerHTML = formatJapaneseText(q.text);
 
