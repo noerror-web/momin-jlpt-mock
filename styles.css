@@ -644,12 +644,26 @@ body {
   color: var(--warning);
 }
 
-.kanji-display {
+/* Japanese Furigana (Ruby) Styling */
+ruby {
+  display: inline-ruby;
   font-family: var(--font-jp);
-  font-size: 2.2rem;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  margin: 0 2px;
+}
+
+rt {
+  font-size: 0.55em;
+  color: var(--accent-pink);
   font-weight: 700;
-  color: #a5b4fc;
-  margin-bottom: 0.75rem;
+  text-align: center;
+  line-height: 1;
+}
+
+.highlight-target {
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 2px;
 }
 
 .question-statement {

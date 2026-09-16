@@ -309,16 +309,19 @@ document.addEventListener('DOMContentLoaded', () => {
     DOM.sectionTitleBadge.textContent = q.sectionTitle;
     DOM.flagBtn.classList.toggle('flagged', state.flaggedQuestions.has(q.id));
 
-    // Passage box
-    if (q.passage) {
+    // Passage box (Furigana HTML)
+    if (q.passageHtml || q.passage) {
       DOM.passageContainer.classList.remove('hidden');
-      DOM.passageText.textContent = q.passage;
+      DOM.passageText.innerHTML = q.passageHtml || q.passage;
     } else {
       DOM.passageContainer.classList.add('hidden');
     }
 
-    // Single Question Card Snippet Rendering
-    if (q.questionCardImage) {
+    // Question Statement (Furigana HTML / Kanji)
+    if (q.rubyHtml) {
+      DOM.questionKanji.classList.add('hidden');
+      DOM.questionText.innerHTML = q.rubyHtml;
+    } else if (q.questionCardImage) {
       DOM.questionKanji.classList.remove('hidden');
       DOM.questionKanji.innerHTML = `
         <div class="question-snippet-card" style="background:#ffffff; border-radius:12px; padding:1.25rem; margin-bottom:1.5rem; text-align:center; box-shadow:0 8px 24px rgba(0,0,0,0.4);">
@@ -334,7 +337,6 @@ document.addEventListener('DOMContentLoaded', () => {
       DOM.questionKanji.classList.add('hidden');
       DOM.questionText.innerHTML = formatJapaneseText(q.text);
     }
-    DOM.questionText.innerHTML = formatJapaneseText(q.text);
 
     // Options Grid
     DOM.optionsContainer.innerHTML = '';

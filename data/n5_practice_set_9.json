@@ -1,1317 +1,285 @@
 {
-  "id": "jlpt-n5-practice-set-9",
-  "title": "JLPT N5 Official Tanki Master Practice Exam",
+  "id": "jlpt-n5-mock-exam-set",
+  "title": "JLPT N5 Mock Exam Set",
   "level": "N5",
-  "timeLimitMinutes": 50,
+  "timeLimitMinutes": 45,
   "passingScore": 80,
   "maxScore": 180,
   "sections": [
     {
       "id": "vocab",
-      "title": "言語知識 (文字・語彙)",
+      "title": "言語知識（文字・語彙）",
       "weight": 60,
       "questions": [
         {
-          "id": "q_vocab_1",
+          "id": "q1",
           "num": 1,
-          "text": "Question 1",
-          "questionCardImage": "public/n5_questions/q_1.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "① あの <ruby><span class=\"highlight-target\">先生</span><rt>せんせい</rt></ruby>は わかいです。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 せんせえ",
+            "2 せんせい",
+            "3 せんせん",
+            "4 せんせ"
           ],
           "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
+          "explanation": "先生 (せんせい) means teacher."
         },
         {
-          "id": "q_vocab_2",
+          "id": "q2",
           "num": 2,
-          "text": "Question 2",
-          "questionCardImage": "public/n5_questions/q_2.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "② あした えいがかんは <ruby><span class=\"highlight-target\">休み</span><rt>やすみ</rt></ruby>です。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 やつみ",
+            "2 やづみ",
+            "3 やすみ",
+            "4 やずみ"
           ],
           "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
+          "explanation": "休み (やすみ) means holiday / closed."
         },
         {
-          "id": "q_vocab_3",
+          "id": "q3",
           "num": 3,
-          "text": "Question 3",
-          "questionCardImage": "public/n5_questions/q_3.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "③ この セーターは <ruby><span class=\"highlight-target\">二千九百</span><rt>にせんきゅうひゃく</rt></ruby>えんでした。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 にっせんきゅうひゃく",
+            "2 にっせんくひゃく",
+            "3 にせんきゅうびゃく",
+            "4 にせんきゅうひゃく"
           ],
           "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
+          "explanation": "二千九百 (にせんきゅうひゃく) = 2,900 yen."
         },
         {
-          "id": "q_vocab_4",
+          "id": "q4",
           "num": 4,
-          "text": "Question 4",
-          "questionCardImage": "public/n5_questions/q_4.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "④ すみません、<ruby><span class=\"highlight-target\">お金</span><rt>おかね</rt></ruby>を わすれました。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 おかね",
+            "2 おかぬ",
+            "3 おがね",
+            "4 おがぬ"
           ],
           "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
+          "explanation": "お金 (おかね) means money."
         },
         {
-          "id": "q_vocab_5",
+          "id": "q5",
           "num": 5,
-          "text": "Question 5",
-          "questionCardImage": "public/n5_questions/q_5.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "⑤ まいにち <ruby><span class=\"highlight-target\">大学</span><rt>だいがく</rt></ruby>へ いきます。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 たいがく",
+            "2 だいがく",
+            "3 たいかく",
+            "4 だいかく"
           ],
           "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
+          "explanation": "大学 (だいがく) means university."
         },
         {
-          "id": "q_vocab_6",
+          "id": "q6",
           "num": 6,
-          "text": "Question 6",
-          "questionCardImage": "public/n5_questions/q_6.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "⑥ わたしは <ruby><span class=\"highlight-target\">雨</span><rt>あめ</rt></ruby>の 日が すきです。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 あめ",
+            "2 ゆき",
+            "3 かぜ",
+            "4 くも"
           ],
           "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
+          "explanation": "雨 (あめ) means rain."
         },
         {
-          "id": "q_vocab_7",
+          "id": "q7",
           "num": 7,
-          "text": "Question 7",
-          "questionCardImage": "public/n5_questions/q_7.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "⑦ この <ruby><span class=\"highlight-target\">魚</span><rt>さかな</rt></ruby>は あたらしいです。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 にく",
+            "2 たまご",
+            "3 やさい",
+            "4 さかな"
           ],
           "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
+          "explanation": "魚 (さかな) means fish."
         },
         {
-          "id": "q_vocab_8",
+          "id": "q8",
           "num": 8,
-          "text": "Question 8",
-          "questionCardImage": "public/n5_questions/q_8.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "⑧ あさって <ruby><span class=\"highlight-target\">友だち</span><rt>ともだち</rt></ruby>が きます。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 ともだち",
+            "2 きょうだい",
+            "3 かぞく",
+            "4 りょうしん"
           ],
           "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
+          "explanation": "友だち (ともだち) means friend."
         },
         {
-          "id": "q_vocab_9",
+          "id": "q9",
           "num": 9,
-          "text": "Question 9",
-          "questionCardImage": "public/n5_questions/q_9.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "⑨ <ruby><span class=\"highlight-target\">北</span><rt>きた</rt></ruby>の ほうへ あるきましょう。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 みなみ",
+            "2 にし",
+            "3 きた",
+            "4 ひがし"
           ],
           "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
+          "explanation": "北 (きた) means north."
         },
         {
-          "id": "q_vocab_10",
+          "id": "q10",
           "num": 10,
-          "text": "Question 10",
-          "questionCardImage": "public/n5_questions/q_10.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 1",
+          "rubyHtml": "⑩ 毎朝 <ruby><span class=\"highlight-target\">新聞</span><rt>しんぶん</rt></ruby>を よみます。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 ざっし",
+            "2 しんぶん",
+            "3 ほん",
+            "4 てがみ"
           ],
           "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
+          "explanation": "新聞 (しんぶん) means newspaper."
         },
         {
-          "id": "q_vocab_11",
+          "id": "q11",
           "num": 11,
-          "text": "Question 11",
-          "questionCardImage": "public/n5_questions/q_11.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 2",
+          "rubyHtml": "⑪ テーブルの うえに <ruby><span class=\"highlight-target\">ほん</span><rt></rt></ruby>が あります。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 本",
+            "2 木",
+            "3 林",
+            "4 森"
           ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
+          "answer": 0,
+          "explanation": "ほん is written as 本."
         },
         {
-          "id": "q_vocab_12",
+          "id": "q12",
           "num": 12,
-          "text": "Question 12",
-          "questionCardImage": "public/n5_questions/q_12.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 2",
+          "rubyHtml": "⑫ わたしの <ruby><span class=\"highlight-target\">ちち</span><rt></rt></ruby>は 50さいです。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 母",
+            "2 兄",
+            "3 弟",
+            "4 父"
           ],
           "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
+          "explanation": "ちち (my father) is written as 父."
         },
         {
-          "id": "q_vocab_13",
+          "id": "q13",
           "num": 13,
-          "text": "Question 13",
-          "questionCardImage": "public/n5_questions/q_13.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 2",
+          "rubyHtml": "⑬ くるまで <ruby><span class=\"highlight-target\">いっしょに</span><rt></rt></ruby> いきます。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 一書に",
+            "2 一緒に",
+            "3 一生に",
+            "4 一所に"
           ],
           "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
+          "explanation": "いっしょに (together) is written as 一緒に."
         },
         {
-          "id": "q_vocab_14",
+          "id": "q14",
           "num": 14,
-          "text": "Question 14",
-          "questionCardImage": "public/n5_questions/q_14.png",
+          "sectionId": "vocab",
+          "sectionTitle": "言語知識（文字・語彙）- もんだい 2",
+          "rubyHtml": "⑭ <ruby><span class=\"highlight-target\">みず</span><rt></rt></ruby>を のみます。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 火",
+            "2 木",
+            "3 水",
+            "4 土"
           ],
           "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_15",
-          "num": 15,
-          "text": "Question 15",
-          "questionCardImage": "public/n5_questions/q_15.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_16",
-          "num": 16,
-          "text": "Question 16",
-          "questionCardImage": "public/n5_questions/q_16.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_vocab_17",
-          "num": 17,
-          "text": "Question 17",
-          "questionCardImage": "public/n5_questions/q_17.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_18",
-          "num": 18,
-          "text": "Question 18",
-          "questionCardImage": "public/n5_questions/q_18.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_19",
-          "num": 19,
-          "text": "Question 19",
-          "questionCardImage": "public/n5_questions/q_19.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_20",
-          "num": 20,
-          "text": "Question 20",
-          "questionCardImage": "public/n5_questions/q_20.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_21",
-          "num": 21,
-          "text": "Question 21",
-          "questionCardImage": "public/n5_questions/q_21.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_vocab_22",
-          "num": 22,
-          "text": "Question 22",
-          "questionCardImage": "public/n5_questions/q_22.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_23",
-          "num": 23,
-          "text": "Question 23",
-          "questionCardImage": "public/n5_questions/q_23.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_24",
-          "num": 24,
-          "text": "Question 24",
-          "questionCardImage": "public/n5_questions/q_24.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_25",
-          "num": 25,
-          "text": "Question 25",
-          "questionCardImage": "public/n5_questions/q_25.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_26",
-          "num": 26,
-          "text": "Question 26",
-          "questionCardImage": "public/n5_questions/q_26.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_27",
-          "num": 27,
-          "text": "Question 27",
-          "questionCardImage": "public/n5_questions/q_27.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_28",
-          "num": 28,
-          "text": "Question 28",
-          "questionCardImage": "public/n5_questions/q_28.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_vocab_29",
-          "num": 29,
-          "text": "Question 29",
-          "questionCardImage": "public/n5_questions/q_29.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_vocab_30",
-          "num": 30,
-          "text": "Question 30",
-          "questionCardImage": "public/n5_questions/q_30.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_31",
-          "num": 31,
-          "text": "Question 31",
-          "questionCardImage": "public/n5_questions/q_31.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_vocab_32",
-          "num": 32,
-          "text": "Question 32",
-          "questionCardImage": "public/n5_questions/q_32.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_33",
-          "num": 33,
-          "text": "Question 33",
-          "questionCardImage": "public/n5_questions/q_33.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_34",
-          "num": 34,
-          "text": "Question 34",
-          "questionCardImage": "public/n5_questions/q_34.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_35",
-          "num": 35,
-          "text": "Question 35",
-          "questionCardImage": "public/n5_questions/q_35.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_vocab_36",
-          "num": 36,
-          "text": "Question 36",
-          "questionCardImage": "public/n5_questions/q_36.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_37",
-          "num": 37,
-          "text": "Question 37",
-          "questionCardImage": "public/n5_questions/q_37.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_vocab_38",
-          "num": 38,
-          "text": "Question 38",
-          "questionCardImage": "public/n5_questions/q_38.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_39",
-          "num": 39,
-          "text": "Question 39",
-          "questionCardImage": "public/n5_questions/q_39.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_40",
-          "num": 40,
-          "text": "Question 40",
-          "questionCardImage": "public/n5_questions/q_40.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_41",
-          "num": 41,
-          "text": "Question 41",
-          "questionCardImage": "public/n5_questions/q_41.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_42",
-          "num": 42,
-          "text": "Question 42",
-          "questionCardImage": "public/n5_questions/q_42.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_43",
-          "num": 43,
-          "text": "Question 43",
-          "questionCardImage": "public/n5_questions/q_43.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_44",
-          "num": 44,
-          "text": "Question 44",
-          "questionCardImage": "public/n5_questions/q_44.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_45",
-          "num": 45,
-          "text": "Question 45",
-          "questionCardImage": "public/n5_questions/q_45.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_46",
-          "num": 46,
-          "text": "Question 46",
-          "questionCardImage": "public/n5_questions/q_46.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_47",
-          "num": 47,
-          "text": "Question 47",
-          "questionCardImage": "public/n5_questions/q_47.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_vocab_48",
-          "num": 48,
-          "text": "Question 48",
-          "questionCardImage": "public/n5_questions/q_48.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_49",
-          "num": 49,
-          "text": "Question 49",
-          "questionCardImage": "public/n5_questions/q_49.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_vocab_50",
-          "num": 50,
-          "text": "Question 50",
-          "questionCardImage": "public/n5_questions/q_50.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_vocab_51",
-          "num": 51,
-          "text": "Question 51",
-          "questionCardImage": "public/n5_questions/q_51.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_vocab_52",
-          "num": 52,
-          "text": "Question 52",
-          "questionCardImage": "public/n5_questions/q_52.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
+          "explanation": "みず (water) is written as 水."
         }
       ]
     },
     {
       "id": "grammar",
-      "title": "言語知識 (文法)",
+      "title": "言語知識（文法）",
       "weight": 60,
       "questions": [
         {
-          "id": "q_grammar_1",
-          "num": 1,
-          "text": "Question 1",
-          "questionCardImage": "public/n5_questions/q_53.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_2",
-          "num": 2,
-          "text": "Question 2",
-          "questionCardImage": "public/n5_questions/q_54.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_grammar_3",
-          "num": 3,
-          "text": "Question 3",
-          "questionCardImage": "public/n5_questions/q_55.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_4",
-          "num": 4,
-          "text": "Question 4",
-          "questionCardImage": "public/n5_questions/q_56.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_5",
-          "num": 5,
-          "text": "Question 5",
-          "questionCardImage": "public/n5_questions/q_57.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_grammar_6",
-          "num": 6,
-          "text": "Question 6",
-          "questionCardImage": "public/n5_questions/q_58.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_7",
-          "num": 7,
-          "text": "Question 7",
-          "questionCardImage": "public/n5_questions/q_59.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_8",
-          "num": 8,
-          "text": "Question 8",
-          "questionCardImage": "public/n5_questions/q_60.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_grammar_9",
-          "num": 9,
-          "text": "Question 9",
-          "questionCardImage": "public/n5_questions/q_61.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_10",
-          "num": 10,
-          "text": "Question 10",
-          "questionCardImage": "public/n5_questions/q_62.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_grammar_11",
-          "num": 11,
-          "text": "Question 11",
-          "questionCardImage": "public/n5_questions/q_63.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_grammar_12",
-          "num": 12,
-          "text": "Question 12",
-          "questionCardImage": "public/n5_questions/q_64.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_13",
-          "num": 13,
-          "text": "Question 13",
-          "questionCardImage": "public/n5_questions/q_65.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_14",
-          "num": 14,
-          "text": "Question 14",
-          "questionCardImage": "public/n5_questions/q_66.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_15",
+          "id": "q15",
           "num": 15,
-          "text": "Question 15",
-          "questionCardImage": "public/n5_questions/q_67.png",
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）- もんだい 1",
+          "rubyHtml": "⑮ わたしは <ruby>毎朝<rt>まいあさ</rt></ruby> 7時<ruby><span class=\"highlight-target\">__</span><rt></rt></ruby> おきます。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 へ"
           ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
+          "answer": 0,
+          "explanation": "Time particle に indicates specific time (7時に)."
         },
         {
-          "id": "q_grammar_16",
+          "id": "q16",
           "num": 16,
-          "text": "Question 16",
-          "questionCardImage": "public/n5_questions/q_68.png",
+          "sectionId": "grammar",
+          "sectionTitle": "言語知識（文法）- もんだい 1",
+          "rubyHtml": "⑯ 図書館<ruby><span class=\"highlight-target\">__</span><rt></rt></ruby> <ruby>日本語<rt>にほんご</rt></ruby>を <ruby>勉強<rt>べんきょう</rt></ruby>します。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_grammar_17",
-          "num": 17,
-          "text": "Question 17",
-          "questionCardImage": "public/n5_questions/q_69.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_18",
-          "num": 18,
-          "text": "Question 18",
-          "questionCardImage": "public/n5_questions/q_70.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_grammar_19",
-          "num": 19,
-          "text": "Question 19",
-          "questionCardImage": "public/n5_questions/q_71.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_20",
-          "num": 20,
-          "text": "Question 20",
-          "questionCardImage": "public/n5_questions/q_72.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_grammar_21",
-          "num": 21,
-          "text": "Question 21",
-          "questionCardImage": "public/n5_questions/q_73.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_22",
-          "num": 22,
-          "text": "Question 22",
-          "questionCardImage": "public/n5_questions/q_74.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 に",
+            "2 で",
+            "3 を",
+            "4 から"
           ],
           "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_23",
-          "num": 23,
-          "text": "Question 23",
-          "questionCardImage": "public/n5_questions/q_75.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_24",
-          "num": 24,
-          "text": "Question 24",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_grammar_25",
-          "num": 25,
-          "text": "Question 25",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_26",
-          "num": 26,
-          "text": "Question 26",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_27",
-          "num": 27,
-          "text": "Question 27",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_28",
-          "num": 28,
-          "text": "Question 28",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_grammar_29",
-          "num": 29,
-          "text": "Question 29",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_grammar_30",
-          "num": 30,
-          "text": "Question 30",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_grammar_31",
-          "num": 31,
-          "text": "Question 31",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_grammar_32",
-          "num": 32,
-          "text": "Question 32",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_33",
-          "num": 33,
-          "text": "Question 33",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 0,
-          "explanation": "Official Tanki Master Answer: Choice (1)"
-        },
-        {
-          "id": "q_grammar_34",
-          "num": 34,
-          "text": "Question 34",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_grammar_35",
-          "num": 35,
-          "text": "Question 35",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_grammar_36",
-          "num": 36,
-          "text": "Question 36",
-          "questionCardImage": "public/n5_questions/q_76.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
+          "explanation": "Action location particle で indicates location of activity (図書館で)."
         }
       ]
     },
     {
       "id": "reading",
-      "title": "読解 (Reading Comprehension)",
+      "title": "読解（Reading Comprehension）",
       "weight": 60,
       "questions": [
         {
-          "id": "q_reading_1",
-          "num": 1,
-          "text": "Question 1",
-          "questionCardImage": "public/n5_questions/q_70.png",
+          "id": "q17",
+          "num": 17,
+          "sectionId": "reading",
+          "sectionTitle": "読解（Reading Comprehension）",
+          "passageHtml": "【<ruby>読解<rt>どっかい</rt></ruby>】\nわたしは リーです。まいあさ 7じに おきます。あさごはんを たべてから、バスで がっこうへ いきます。がっこうは 9じから 3じまで です。きょうの ごごは としょかんで にほんごの べんきょうを しました。",
+          "rubyHtml": "十七. リーさんは きょうの ごご なにを しましたか。",
           "options": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1 としょかんで にほんごの べんきょうを しました。",
+            "2 バスで がっこうへ いきました。",
+            "3 7じに おきました。",
+            "4 あさごはんを たべました。"
           ],
-          "answer": 3,
-          "explanation": "Official Tanki Master Answer: Choice (4)"
-        },
-        {
-          "id": "q_reading_2",
-          "num": 2,
-          "text": "Question 2",
-          "questionCardImage": "public/n5_questions/q_71.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 2,
-          "explanation": "Official Tanki Master Answer: Choice (3)"
-        },
-        {
-          "id": "q_reading_3",
-          "num": 3,
-          "text": "Question 3",
-          "questionCardImage": "public/n5_questions/q_72.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
-        },
-        {
-          "id": "q_reading_4",
-          "num": 4,
-          "text": "Question 4",
-          "questionCardImage": "public/n5_questions/q_73.png",
-          "options": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "answer": 1,
-          "explanation": "Official Tanki Master Answer: Choice (2)"
+          "answer": 0,
+          "explanation": "Passage states: 'きょうの ごごは としょかんで にほんごの べんきょうを しました。'"
         }
       ]
     }
