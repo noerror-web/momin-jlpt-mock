@@ -646,19 +646,23 @@ body {
 
 /* Japanese Furigana (Ruby) Styling */
 ruby {
-  display: inline-ruby;
-  font-family: var(--font-jp);
-  font-size: 1.5rem;
-  line-height: 2.6rem;
-  margin: 0 2px;
+  display: inline-flex;
+  flex-direction: column-reverse;
+  vertical-align: bottom;
+  align-items: center;
+  margin: 0 4px;
+  line-height: 1.2;
 }
 
 rt {
-  font-size: 0.55em;
-  color: var(--accent-pink);
+  display: block;
+  font-size: 0.72rem;
+  color: #ec4899;
   font-weight: 700;
   text-align: center;
-  line-height: 1;
+  line-height: 1.1;
+  margin-bottom: 3px;
+  font-family: var(--font-jp);
 }
 
 .highlight-target {

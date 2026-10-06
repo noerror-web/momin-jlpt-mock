@@ -1,0 +1,1294 @@
+{
+  "id": "jlpt-n5-mock-test-2",
+  "title": "JLPT N5 Official Mock Examination Set 2",
+  "level": "N5",
+  "timeLimitMinutes": 50,
+  "passingScore": 80,
+  "maxScore": 180,
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Language Knowledge (Vocabulary)",
+      "weight": 50,
+      "questions": [
+        {
+          "id": "q_vocab_1",
+          "num": 1,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "① きのう「<span class=\"highlight-target\">友達</span>」と あそびました。",
+          "options": [
+            "A) ゆうだち",
+            "B) ゆうたつ",
+            "C) ともたち",
+            "D) ともだち"
+          ],
+          "answer": 3,
+          "explanation": "友達 (ともだち) means 'friend'."
+        },
+        {
+          "id": "q_vocab_2",
+          "num": 2,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "② 「<span class=\"highlight-target\">先生</span>」に しつもんします。",
+          "options": [
+            "A) さきしょう",
+            "B) せんしょう",
+            "C) せんせい",
+            "D) さきせい"
+          ],
+          "answer": 2,
+          "explanation": "先生 (せんせい) means 'teacher'."
+        },
+        {
+          "id": "q_vocab_3",
+          "num": 3,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "③ 「<span class=\"highlight-target\">時間</span>」が ありません。",
+          "options": [
+            "A) ときま",
+            "B) ときかん",
+            "C) じま",
+            "D) じかん"
+          ],
+          "answer": 3,
+          "explanation": "時間 (じかん) means 'time'."
+        },
+        {
+          "id": "q_vocab_4",
+          "num": 4,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "④ この「<span class=\"highlight-target\">道</span>」を まっすぐ いってください。",
+          "options": [
+            "A) どう",
+            "B) つう",
+            "C) みち",
+            "D) とお"
+          ],
+          "answer": 2,
+          "explanation": "道 (みち) means 'street' / 'road'."
+        },
+        {
+          "id": "q_vocab_5",
+          "num": 5,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑤ 「<span class=\"highlight-target\">母</span>」は りょうりが じょうずです。",
+          "options": [
+            "A) ぼ",
+            "B) あね",
+            "C) おば",
+            "D) はは"
+          ],
+          "answer": 3,
+          "explanation": "母 (はは) means 'my mother'."
+        },
+        {
+          "id": "q_vocab_6",
+          "num": 6,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑥ 「<span class=\"highlight-target\">会社</span>」に つとめています。",
+          "options": [
+            "A) あいしゃ",
+            "B) えしゃ",
+            "C) かいじゃ",
+            "D) かいしゃ"
+          ],
+          "answer": 3,
+          "explanation": "会社 (かいしゃ) means 'company' / 'office'."
+        },
+        {
+          "id": "q_vocab_7",
+          "num": 7,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑦ 「<span class=\"highlight-target\">手紙</span>」を かきました。",
+          "options": [
+            "A) てし",
+            "B) しゅし",
+            "C) てがみ",
+            "D) しゅがみ"
+          ],
+          "answer": 2,
+          "explanation": "手紙 (てがみ) means 'letter'."
+        },
+        {
+          "id": "q_vocab_8",
+          "num": 8,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑧ 「<span class=\"highlight-target\">来週</span>」テストが あります。",
+          "options": [
+            "A) きしゅう",
+            "B) くしゅう",
+            "C) らいしゅう",
+            "D) らいしゅ"
+          ],
+          "answer": 2,
+          "explanation": "来週 (らいしゅう) means 'next week'."
+        },
+        {
+          "id": "q_vocab_9",
+          "num": 9,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑨ 「<span class=\"highlight-target\">名前</span>」を ここに かいてください。",
+          "options": [
+            "A) なまえ",
+            "B) なぜん",
+            "C) めいまえ",
+            "D) めいぜん"
+          ],
+          "answer": 0,
+          "explanation": "名前 (なまえ) means 'name'."
+        },
+        {
+          "id": "q_vocab_10",
+          "num": 10,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑩ 「<span class=\"highlight-target\">今朝</span>」パンを たべました。",
+          "options": [
+            "A) こんちょう",
+            "B) きんあさ",
+            "C) けさ",
+            "D) いまあさ"
+          ],
+          "answer": 2,
+          "explanation": "今朝 (けさ) means 'this morning'."
+        },
+        {
+          "id": "q_vocab_11",
+          "num": 11,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑪ 「<span class=\"highlight-target\">かわ</span>」の ちかくに すんでいます。",
+          "options": [
+            "A) 池",
+            "B) 山",
+            "C) 海",
+            "D) 川"
+          ],
+          "answer": 3,
+          "explanation": "かわ (river) is written in Kanji as 川."
+        },
+        {
+          "id": "q_vocab_12",
+          "num": 12,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑫ 「<span class=\"highlight-target\">しろ</span>」い くつを かいました。",
+          "options": [
+            "A) 目",
+            "B) 自",
+            "C) 百",
+            "D) 白"
+          ],
+          "answer": 3,
+          "explanation": "しろい (white) is written in Kanji as 白い."
+        },
+        {
+          "id": "q_vocab_13",
+          "num": 13,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑬ 「<span class=\"highlight-target\">あたら</span>」しい かばんです。",
+          "options": [
+            "A) 近",
+            "B) 親",
+            "C) 新",
+            "D) 薪"
+          ],
+          "answer": 2,
+          "explanation": "あたらしい (new) is written in Kanji as 新しい."
+        },
+        {
+          "id": "q_vocab_14",
+          "num": 14,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑭ 「<span class=\"highlight-target\">なか</span>」に はいって ください。",
+          "options": [
+            "A) 入",
+            "B) 仲",
+            "C) 内",
+            "D) 中"
+          ],
+          "answer": 3,
+          "explanation": "なか (inside) is written in Kanji as 中."
+        },
+        {
+          "id": "q_vocab_15",
+          "num": 15,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑮ 「<span class=\"highlight-target\">そと</span>」で あそびましょう。",
+          "options": [
+            "A) 外",
+            "B) 出",
+            "C) 大",
+            "D) 門"
+          ],
+          "answer": 0,
+          "explanation": "そと (outside) is written in Kanji as 外."
+        },
+        {
+          "id": "q_vocab_16",
+          "num": 16,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑯ 「<span class=\"highlight-target\">ひだり</span>」に まがります。",
+          "options": [
+            "A) 下",
+            "B) 左",
+            "C) 上",
+            "D) 右"
+          ],
+          "answer": 1,
+          "explanation": "ひだり (left) is written in Kanji as 左."
+        },
+        {
+          "id": "q_vocab_17",
+          "num": 17,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑰ 「<span class=\"highlight-target\">おんな</span>」の こが います。",
+          "options": [
+            "A) 男",
+            "B) 母",
+            "C) 子",
+            "D) 女"
+          ],
+          "answer": 3,
+          "explanation": "おんな (female/woman) is written in Kanji as 女."
+        },
+        {
+          "id": "q_vocab_18",
+          "num": 18,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑱ 「<span class=\"highlight-target\">ゆき</span>」が ふりました。",
+          "options": [
+            "A) 雨",
+            "B) 雷",
+            "C) 雪",
+            "D) 雲"
+          ],
+          "answer": 2,
+          "explanation": "ゆき (snow) is written in Kanji as 雪."
+        },
+        {
+          "id": "q_vocab_19",
+          "num": 19,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑲ 「<span class=\"highlight-target\">にし</span>」に いきます。",
+          "options": [
+            "A) 北",
+            "B) 南",
+            "C) 東",
+            "D) 西"
+          ],
+          "answer": 3,
+          "explanation": "にし (west) is written in Kanji as 西."
+        },
+        {
+          "id": "q_vocab_20",
+          "num": 20,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "⑳ 「<span class=\"highlight-target\">いもうと</span>」は こうこうせいです。",
+          "options": [
+            "A) 妹",
+            "B) 姉",
+            "C) 弟",
+            "D) 兄"
+          ],
+          "answer": 0,
+          "explanation": "いもうと (younger sister) is written in Kanji as 妹."
+        },
+        {
+          "id": "q_vocab_21",
+          "num": 21,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "㉑ テーブルの うえに コップが みっつ<span class=\"highlight-target\">（　）</span>。",
+          "options": [
+            "A) あります",
+            "B) します",
+            "C) なります",
+            "D) います"
+          ],
+          "answer": 0,
+          "explanation": "Inanimate objects like cups (コップ) use あります."
+        },
+        {
+          "id": "q_vocab_22",
+          "num": 22,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "㉒ えきで でんしゃを<span class=\"highlight-target\">（　）</span>。",
+          "options": [
+            "A) まちます",
+            "B) おしえます",
+            "C) つくります",
+            "D) あるきます"
+          ],
+          "answer": 0,
+          "explanation": "まちます means 'wait' (waiting for train at station)."
+        },
+        {
+          "id": "q_vocab_23",
+          "num": 23,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "㉓ しけんは<span class=\"highlight-target\">（　）</span>でしたか。",
+          "options": [
+            "A) どれ",
+            "B) どんな",
+            "C) どの",
+            "D) どう"
+          ],
+          "answer": 3,
+          "explanation": "どうでしたか asks 'How was [the exam]?''."
+        },
+        {
+          "id": "q_vocab_24",
+          "num": 24,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "㉔ あの みせの ラーメンは とても<span class=\"highlight-target\">（　）</span>です。",
+          "options": [
+            "A) ちかい",
+            "B) ほそい",
+            "C) おいしい",
+            "D) ひろい"
+          ],
+          "answer": 2,
+          "explanation": "おいしい (delicious) fits ramen best."
+        },
+        {
+          "id": "q_vocab_25",
+          "num": 25,
+          "sectionId": "vocab",
+          "sectionTitle": "Language Knowledge (Vocabulary)",
+          "rubyHtml": "㉕ まどを<span class=\"highlight-target\">（　）</span>ください。あついですから。",
+          "options": [
+            "A) けして",
+            "B) あけて",
+            "C) しめて",
+            "D) つけて"
+          ],
+          "answer": 1,
+          "explanation": "あけて (open) the window because it is hot."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Language Knowledge (Grammar)",
+      "weight": 70,
+      "questions": [
+        {
+          "id": "q_grammar_26",
+          "num": 26,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉖ まいあさ ぎゅうにゅう<span class=\"highlight-target\">（　）</span>のみます。",
+          "options": [
+            "A) が",
+            "B) で",
+            "C) を",
+            "D) に"
+          ],
+          "answer": 2,
+          "explanation": "Direct object marker を with verb のみます."
+        },
+        {
+          "id": "q_grammar_27",
+          "num": 27,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉗ きょうしつ<span class=\"highlight-target\">（　）</span>にほんごを べ勉強します。",
+          "options": [
+            "A) に",
+            "B) が",
+            "C) を",
+            "D) で"
+          ],
+          "answer": 3,
+          "explanation": "Action location particle で indicates location of activity."
+        },
+        {
+          "id": "q_grammar_28",
+          "num": 28,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉘ にちようび<span class=\"highlight-target\">（　）</span>えいがを みました。",
+          "options": [
+            "A) を",
+            "B) が",
+            "C) に",
+            "D) で"
+          ],
+          "answer": 2,
+          "explanation": "Specific day/time marker に (にちようびに)."
+        },
+        {
+          "id": "q_grammar_29",
+          "num": 29,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉙ おとうと<span class=\"highlight-target\">（　）</span>サッカーが すきです。",
+          "options": [
+            "A) に",
+            "B) を",
+            "C) は",
+            "D) で"
+          ],
+          "answer": 2,
+          "explanation": "Topic marker は (おとうとは)."
+        },
+        {
+          "id": "q_grammar_30",
+          "num": 30,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉚ どこ<span class=\"highlight-target\">（　）</span>いきますか。",
+          "options": [
+            "A) に",
+            "B) を",
+            "C) は",
+            "D) が"
+          ],
+          "answer": 0,
+          "explanation": "Direction/Destination particle に (どこに)."
+        },
+        {
+          "id": "q_grammar_31",
+          "num": 31,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉛ ペン<span class=\"highlight-target\">（　）</span>かして ください。",
+          "options": [
+            "A) が",
+            "B) を",
+            "C) に",
+            "D) で"
+          ],
+          "answer": 1,
+          "explanation": "Direct object particle を (ペンを)."
+        },
+        {
+          "id": "q_grammar_32",
+          "num": 32,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉜ きょねん にほん<span class=\"highlight-target\">（　）</span>いきました。",
+          "options": [
+            "A) に",
+            "B) が",
+            "C) を",
+            "D) で"
+          ],
+          "answer": 0,
+          "explanation": "Destination particle に (にほんに)."
+        },
+        {
+          "id": "q_grammar_33",
+          "num": 33,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉝ この へや<span class=\"highlight-target\">（　）</span>きれいですね。",
+          "options": [
+            "A) は",
+            "B) を",
+            "C) に",
+            "D) で"
+          ],
+          "answer": 0,
+          "explanation": "Topic marker は (このへやは)."
+        },
+        {
+          "id": "q_grammar_34",
+          "num": 34,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉞ あね<span class=\"highlight-target\">（　）</span>けっこんしました。",
+          "options": [
+            "A) を",
+            "B) で",
+            "C) が",
+            "D) に"
+          ],
+          "answer": 2,
+          "explanation": "Subject marker が with intransitive state change (あねが けっこんしました)."
+        },
+        {
+          "id": "q_grammar_35",
+          "num": 35,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㉟ ちち<span class=\"highlight-target\">（　）</span>ははは きょうし です。",
+          "options": [
+            "A) が",
+            "B) は",
+            "C) と",
+            "D) を"
+          ],
+          "answer": 2,
+          "explanation": "Connecting particle と ('father AND mother')."
+        },
+        {
+          "id": "q_grammar_36",
+          "num": 36,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊱ えき<span class=\"highlight-target\">（　）</span>バスに のります。",
+          "options": [
+            "A) を",
+            "B) に",
+            "C) が",
+            "D) で"
+          ],
+          "answer": 3,
+          "explanation": "Location of action で (えきで バスに のります)."
+        },
+        {
+          "id": "q_grammar_37",
+          "num": 37,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊲ テスト<span class=\"highlight-target\">（　）</span>むずかしかったです。",
+          "options": [
+            "A) を",
+            "B) は",
+            "C) に",
+            "D) が"
+          ],
+          "answer": 1,
+          "explanation": "Topic marker は (テストは)."
+        },
+        {
+          "id": "q_grammar_38",
+          "num": 38,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊳ わたしは すし<span class=\"highlight-target\">（　）</span>てんぷら<span class=\"highlight-target\">（　）</span>すきです。",
+          "options": [
+            "A) も / も",
+            "B) が / が",
+            "C) と / と",
+            "D) を / を"
+          ],
+          "answer": 0,
+          "explanation": "Dual particle も / も ('both sushi AND tempura')."
+        },
+        {
+          "id": "q_grammar_39",
+          "num": 39,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊴ おかあさん<span class=\"highlight-target\">（　）</span>プレゼントを もらいました。",
+          "options": [
+            "A) から",
+            "B) に",
+            "C) を",
+            "D) で"
+          ],
+          "answer": 0,
+          "explanation": "Source particle から ('received from mother')."
+        },
+        {
+          "id": "q_grammar_40",
+          "num": 40,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊵ あたらしい くつ<span class=\"highlight-target\">（　）</span>かいたいです。",
+          "options": [
+            "A) で",
+            "B) を",
+            "C) に",
+            "D) が"
+          ],
+          "answer": 3,
+          "explanation": "Target of desire -たい is marked by が (くつが かいたい)."
+        },
+        {
+          "id": "q_grammar_41",
+          "num": 41,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊶ ここ<span class=\"highlight-target\">（　）</span>しゃしんを とりましょう。",
+          "options": [
+            "A) が",
+            "B) に",
+            "C) で",
+            "D) を"
+          ],
+          "answer": 2,
+          "explanation": "Location of action で (ここで)."
+        },
+        {
+          "id": "q_grammar_42",
+          "num": 42,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊷ あした<span class=\"highlight-target\">（　）</span>あめが ふるでしょう。",
+          "options": [
+            "A) が",
+            "B) を",
+            "C) は",
+            "D) に"
+          ],
+          "answer": 2,
+          "explanation": "Time topic marker は (あしたは)."
+        },
+        {
+          "id": "q_grammar_43",
+          "num": 43,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊸ テーブルの うえ<span class=\"highlight-target\">（　）</span>ほんが あります。",
+          "options": [
+            "A) が",
+            "B) で",
+            "C) を",
+            "D) に"
+          ],
+          "answer": 3,
+          "explanation": "Location of existence に (うえに)."
+        },
+        {
+          "id": "q_grammar_44",
+          "num": 44,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊹ じてんしゃ<span class=\"highlight-target\">（　）</span>がっこうに いきます。",
+          "options": [
+            "A) が",
+            "B) で",
+            "C) に",
+            "D) を"
+          ],
+          "answer": 1,
+          "explanation": "Means/Method particle で (じてんしゃで)."
+        },
+        {
+          "id": "q_grammar_45",
+          "num": 45,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊺ たなかさん<span class=\"highlight-target\">（　）</span>でんわを かけました。",
+          "options": [
+            "A) を",
+            "B) に",
+            "C) が",
+            "D) で"
+          ],
+          "answer": 1,
+          "explanation": "Target of call に (たなかさんに)."
+        },
+        {
+          "id": "q_grammar_46",
+          "num": 46,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊻ すずきさんは いま へやで ほんを<span class=\"highlight-target\">（　）</span>います。",
+          "options": [
+            "A) よみ",
+            "B) よんで",
+            "C) よんだ",
+            "D) よむ"
+          ],
+          "answer": 1,
+          "explanation": "V-て + います indicates ongoing action (よんでいます)."
+        },
+        {
+          "id": "q_grammar_47",
+          "num": 47,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊼ しゅうまつ うみに<span class=\"highlight-target\">（　）</span>たいです。",
+          "options": [
+            "A) いった",
+            "B) いく",
+            "C) いって",
+            "D) いき"
+          ],
+          "answer": 3,
+          "explanation": "Verb stem + たい indicates desire (行きたい)."
+        },
+        {
+          "id": "q_grammar_48",
+          "num": 48,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊽ この ケーキは<span class=\"highlight-target\">（　）</span>て おいしいです。",
+          "options": [
+            "A) あまい",
+            "B) あま",
+            "C) あまく",
+            "D) あまくて"
+          ],
+          "answer": 2,
+          "explanation": "Connecting I-adjectives: drop い and add くて (あまくて)."
+        },
+        {
+          "id": "q_grammar_49",
+          "num": 49,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊾ きのうは がっこうに<span class=\"highlight-target\">（　）</span>。",
+          "options": [
+            "A) いかなかった",
+            "B) いきませんでした",
+            "C) いきません",
+            "D) いかないです"
+          ],
+          "answer": 1,
+          "explanation": "Past polite negative form (いきませんでした)."
+        },
+        {
+          "id": "q_grammar_50",
+          "num": 50,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "㊿ たなかさんは えいごが<span class=\"highlight-target\">（　）</span>。",
+          "options": [
+            "A) じょうずに",
+            "B) じょうずな",
+            "C) じょうずで",
+            "D) じょうずです"
+          ],
+          "answer": 3,
+          "explanation": "Na-adjective polite predicate (じょうずです)."
+        },
+        {
+          "id": "q_grammar_51",
+          "num": 51,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "51. まいにち いちじかん<span class=\"highlight-target\">（　）</span>うんどうします。",
+          "options": [
+            "A) しか",
+            "B) ごろ",
+            "C) まで",
+            "D) ぐらい"
+          ],
+          "answer": 3,
+          "explanation": "Approximate duration marker ぐらい ('about 1 hour')."
+        },
+        {
+          "id": "q_grammar_52",
+          "num": 52,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "52. あしたは にちようびです<span class=\"highlight-target\">（　）</span>、がっこうは やすみです。",
+          "options": [
+            "A) けど",
+            "B) ので",
+            "C) のに",
+            "D) から"
+          ],
+          "answer": 3,
+          "explanation": "Conjunctive particle から indicates reason ('because tomorrow is Sunday')."
+        },
+        {
+          "id": "q_grammar_53",
+          "num": 53,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "53. テレビを<span class=\"highlight-target\">（　）</span>ながら ごはんを たべます。",
+          "options": [
+            "A) み",
+            "B) みた",
+            "C) みる",
+            "D) みて"
+          ],
+          "answer": 0,
+          "explanation": "Verb stem + ながら indicates simultaneous action (みながら)."
+        },
+        {
+          "id": "q_grammar_54",
+          "num": 54,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "54. この もんだいは<span class=\"highlight-target\">（　）</span>すぎます。",
+          "options": [
+            "A) むずかし",
+            "B) むずかしく",
+            "C) むずかしくて",
+            "D) むずかしい"
+          ],
+          "answer": 0,
+          "explanation": "I-adjective stem + すぎる (むずかしすぎる = too difficult)."
+        },
+        {
+          "id": "q_grammar_55",
+          "num": 55,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "55. あめが ふっていますから、かさを<span class=\"highlight-target\">（　）</span>いきましょう。",
+          "options": [
+            "A) もった",
+            "B) もって",
+            "C) もち",
+            "D) もつ"
+          ],
+          "answer": 1,
+          "explanation": "V-て + いきます (もっていきましょう = let's take an umbrella and go)."
+        },
+        {
+          "id": "q_grammar_56",
+          "num": 56,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "56. すみません、トイレは<span class=\"highlight-target\">（　）</span>ですか。",
+          "options": [
+            "A) どこ",
+            "B) だれ",
+            "C) なに",
+            "D) いつ"
+          ],
+          "answer": 0,
+          "explanation": "Question word どこ asks for location ('Where is the restroom?')."
+        },
+        {
+          "id": "q_grammar_57",
+          "num": 57,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "57. ごはんを 食べた<span class=\"highlight-target\">（　）</span>、はを みがきます。",
+          "options": [
+            "A) あとで",
+            "B) まえに",
+            "C) ときに",
+            "D) あいだに"
+          ],
+          "answer": 0,
+          "explanation": "V-た + あとで indicates 'after doing' (食べたあとで)."
+        },
+        {
+          "id": "q_grammar_58",
+          "num": 58,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "58. きょうは きのう<span class=\"highlight-target\">（　）</span>さむいです。",
+          "options": [
+            "A) から",
+            "B) まで",
+            "C) ほど",
+            "D) より"
+          ],
+          "answer": 3,
+          "explanation": "Comparison particle より ('colder than yesterday')."
+        },
+        {
+          "id": "q_grammar_59",
+          "num": 59,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "59. コーヒーを いっぱい<span class=\"highlight-target\">（　）</span>しませんか。",
+          "options": [
+            "A) なに",
+            "B) どれ",
+            "C) どう",
+            "D) いかが"
+          ],
+          "answer": 3,
+          "explanation": "Offer / Suggestion phrase いかが ('How about a cup of coffee?')."
+        },
+        {
+          "id": "q_grammar_60",
+          "num": 60,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "60. にほんごを<span class=\"highlight-target\">（　）</span>ことが できますか。",
+          "options": [
+            "A) はなした",
+            "B) はなす",
+            "C) はなして",
+            "D) はなし"
+          ],
+          "answer": 1,
+          "explanation": "Dictionary verb + ことが できます ('can speak Japanese')."
+        },
+        {
+          "id": "q_grammar_61",
+          "num": 61,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "61. わたしは ＿＿ ＿＿ <span class=\"highlight-target\">★</span> ＿＿ 。",
+          "options": [
+            "A) まいにち",
+            "B) にほんご",
+            "C) を",
+            "D) べんきょうします"
+          ],
+          "answer": 2,
+          "explanation": "Correct sentence: わたしは まいにち にほんご ★を べんきょうします。(Star is C: を)."
+        },
+        {
+          "id": "q_grammar_62",
+          "num": 62,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "62. きのう ＿＿ <span class=\"highlight-target\">★</span> ＿＿ ＿＿ みました。",
+          "options": [
+            "A) ともだち",
+            "B) と",
+            "C) えいが",
+            "D) を"
+          ],
+          "answer": 1,
+          "explanation": "Correct sentence: きのう ともだち ★と えいが を みました。(Star is B: と)."
+        },
+        {
+          "id": "q_grammar_63",
+          "num": 63,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "63. この ＿＿ ＿＿ <span class=\"highlight-target\">★</span> ＿＿ おいしいです。",
+          "options": [
+            "A) みせ",
+            "B) の",
+            "C) ケーキ",
+            "D) は"
+          ],
+          "answer": 2,
+          "explanation": "Correct sentence: この みせ の ★ケーキ は おいしいです。(Star is C: ケーキ)."
+        },
+        {
+          "id": "q_grammar_64",
+          "num": 64,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "64. ＿＿ <span class=\"highlight-target\">★</span> ＿＿ ＿＿ ならいます。",
+          "options": [
+            "A) がっこうで",
+            "B) にほんご",
+            "C) を",
+            "D) せんせいに"
+          ],
+          "answer": 1,
+          "explanation": "Correct sentence: がっこうで ★にほんご を せんせいに ならいます。(Star is B: にほんご)."
+        },
+        {
+          "id": "q_grammar_65",
+          "num": 65,
+          "sectionId": "grammar",
+          "sectionTitle": "Language Knowledge (Grammar & Particles)",
+          "rubyHtml": "65. ＿＿ ＿＿ ＿＿ <span class=\"highlight-target\">★</span> かけます。",
+          "options": [
+            "A) きのう",
+            "B) たなかさんに",
+            "C) でんわ",
+            "D) を"
+          ],
+          "answer": 2,
+          "explanation": "Correct sentence: きのう たなかさんに でんわ ★を かけました/かけます。(Star is D/C: を)."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading Comprehension",
+      "weight": 60,
+      "questions": [
+        {
+          "id": "q_reading_66",
+          "num": 66,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 1 — 自己紹介】</strong><br>\n  わたしは キムです。かんこくじんです。いま とうきょうに すんでいます。<br>\n  まいにち でんしゃで だいがくに いきます。だいがくで にほんごを べんきょうしています。<br>\n  にほんごの じゅぎょうは ごぜん 九時から 十二時までです。<br>\n  ひるごはんは いつも がくしょくで ともだちと たべます。<br>\n  午後は としょかんで しゅくだいを します。<br>\n  よる いえで テレビを みます。にほんの ドラマが すきです。\n</div>",
+          "rubyHtml": "66. キムさんは どこの 人ですか。",
+          "options": [
+            "A) にほんじん",
+            "B) ちゅうごくじん",
+            "C) アメリカじん",
+            "D) かんこくじん"
+          ],
+          "answer": 3,
+          "explanation": "Passage states: 'わたしは キムです。かんこくじんです。' (Korean)."
+        },
+        {
+          "id": "q_reading_67",
+          "num": 67,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 1 — 自己紹介】</strong><br>\n  わたしは キムです。かんこくじんです。いま とうきょうに すんでいます。<br>\n  まいにち でんしゃで だいがくに いきます。だいがくで にほんごを べんきょうしています。<br>\n  にほんごの じゅぎょうは ごぜん 九時から 十二時までです。<br>\n  ひるごはんは いつも がくしょくで ともだちと たべます。<br>\n  午後は としょかんで しゅくだいを します。<br>\n  よる いえで テレビを みます。にほんの ドラマが すきです。\n</div>",
+          "rubyHtml": "67. だいがくまで なんで いきますか。",
+          "options": [
+            "A) じてんしゃ",
+            "B) くるま",
+            "C) でんしゃ",
+            "D) バス"
+          ],
+          "answer": 2,
+          "explanation": "Passage states: 'まいにち でんしゃで だいがくに いきます。' (Train)."
+        },
+        {
+          "id": "q_reading_68",
+          "num": 68,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 1 — 自己紹介】</strong><br>\n  わたしは キムです。かんこくじんです。いま とうきょうに すんでいます。<br>\n  まいにち でんしゃで だいがくに いきます。だいがくで にほんごを べんきょうしています。<br>\n  にほんごの じゅぎょうは ごぜん 九時から 十二時までです。<br>\n  ひるごはんは いつも がくしょくで ともだちと たべます。<br>\n  午後は としょかんで しゅくだいを します。<br>\n  よる いえで テレビを みます。にほんの ドラマが すきです。\n</div>",
+          "rubyHtml": "68. にほんごの じゅぎょうは なんじまでですか。",
+          "options": [
+            "A) 一時",
+            "B) 十一時",
+            "C) 十二時",
+            "D) 二時"
+          ],
+          "answer": 2,
+          "explanation": "Passage states: 'ごぜん 九時から 十二時までです。' (Until 12:00)."
+        },
+        {
+          "id": "q_reading_69",
+          "num": 69,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 1 — 自己紹介】</strong><br>\n  わたしは キムです。かんこくじんです。いま とうきょうに すんでいます。<br>\n  まいにち でんしゃで だいがくに いきます。だいがくで にほんごを べんきょうしています。<br>\n  にほんごの じゅぎょうは ごぜん 九時から 十二時までです。<br>\n  ひるごはんは いつも がくしょくで ともだちと たべます。<br>\n  午後は としょかんで しゅくだいを します。<br>\n  よる いえで テレビを みます。にほんの ドラマが すきです。\n</div>",
+          "rubyHtml": "69. 午後 キムさんは なにを しますか。",
+          "options": [
+            "A) としょかんで しゅくだい",
+            "B) スポーツ",
+            "C) かいもの",
+            "D) アルアルバイト"
+          ],
+          "answer": 0,
+          "explanation": "Passage states: '午後は としょかんで しゅくだいを します。' (Homework at library)."
+        },
+        {
+          "id": "q_reading_70",
+          "num": 70,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 2 — パーティーのおしらせ】</strong><br>\n  こんしゅうの どようびに パーティーが あります。<br>\n  ばしょは すずきさんの いえです。じかんは ごご 五時からです。<br>\n  わたしは ケーキを つくります。<br>\n  たなかさんは のみものを かいます。<br>\n  やまださんは おんがくの CDを もってきます。<br>\n  みんなで うたったり おどったり します。たのしみです！\n</div>",
+          "rubyHtml": "70. パーティーは なんようびですか。",
+          "options": [
+            "A) もくようび",
+            "B) どようび",
+            "C) きんようび",
+            "D) にちようび"
+          ],
+          "answer": 1,
+          "explanation": "Passage states: 'こんしゅうの どようびに パーティーが あります。' (Saturday)."
+        },
+        {
+          "id": "q_reading_71",
+          "num": 71,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 2 — パーティーのおしらせ】</strong><br>\n  こんしゅうの どようびに パーティーが あります。<br>\n  ばしょは すずきさんの いえです。じかんは ごご 五時からです。<br>\n  わたしは ケーキを つくります。<br>\n  たなかさんは のみものを かいます。<br>\n  やまださんは おんがくの CDを もってきます。<br>\n  みんなで うたったり おどったり します。たのしみです！\n</div>",
+          "rubyHtml": "71. パーティーは どこで しますか。",
+          "options": [
+            "A) こうえん",
+            "B) レストラン",
+            "C) すずきさんの いえ",
+            "D) がっこう"
+          ],
+          "answer": 2,
+          "explanation": "Passage states: 'ばしょは すずきさんの いえです。' (Suzuki's house)."
+        },
+        {
+          "id": "q_reading_72",
+          "num": 72,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 2 — パーティーのおしらせ】</strong><br>\n  こんしゅうの どようびに パーティーが あります。<br>\n  ばしょは すずきさんの いえです。じかんは ごご 五時からです。<br>\n  わたしは ケーキを つくります。<br>\n  たなかさんは のみものを かいます。<br>\n  やまださんは おんがくの CDを もってきます。<br>\n  みんなで うたったり おどったり します。たのしみです！\n</div>",
+          "rubyHtml": "72. たなかさんは なにを しますか。",
+          "options": [
+            "A) ケーキを つくる",
+            "B) CDを もってくる",
+            "C) のみものを かう",
+            "D) りょうりを する"
+          ],
+          "answer": 2,
+          "explanation": "Passage states: 'たなかさんは のみものを かいます。' (Buys drinks)."
+        },
+        {
+          "id": "q_reading_73",
+          "num": 73,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 2 — パーティーのおしらせ】</strong><br>\n  こんしゅうの どようびに パーティーが あります。<br>\n  ばしょは すずきさんの いえです。じかんは ごご 五時からです。<br>\n  わたしは ケーキを つくります。<br>\n  たなかさんは のみものを かいます。<br>\n  やまださんは おんがくの CDを もってきます。<br>\n  みんなで うたったり おどったり します。たのしみです！\n</div>",
+          "rubyHtml": "73. パーティーで なにを しますか。",
+          "options": [
+            "A) べんきょうする",
+            "B) えいがを みる",
+            "C) ゲームを する",
+            "D) うたったり おどったり する"
+          ],
+          "answer": 3,
+          "explanation": "Passage states: 'みんなで うたったり おどったり します。' (Sing and dance)."
+        },
+        {
+          "id": "q_reading_74",
+          "num": 74,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 3 — あたらしい レストラン】</strong><br>\n  わたしの まちに あたらしい レストランが できました。<br>\n  イタリアりょうりの レストランです。えきから あるいて 五分です。<br>\n  わたしは せんしゅうの にちようびに かぞくと いきました。<br>\n  ちちは パスタを たべました。ははは サラダと ピザを たべました。<br>\n  わたしは カルボナーラを たべました。とても おいしかったです。<br>\n  でも すこし たかかったです。\n</div>",
+          "rubyHtml": "74. あたらしい レストランは なにりょうりの みせですか。",
+          "options": [
+            "A) イタリアりょうり",
+            "B) ちゅうかりょうり",
+            "C) にほんりょうり",
+            "D) フランスりょうり"
+          ],
+          "answer": 0,
+          "explanation": "Passage states: 'イタリアりょうりの レストランです。' (Italian food)."
+        },
+        {
+          "id": "q_reading_75",
+          "num": 75,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 3 — あたらしい レストラン】</strong><br>\n  わたしの まちに あたらしい レストランが できました。<br>\n  イタリアりょうりの レストランです。えきから あるいて 五分です。<br>\n  わたしは せんしゅうの にちようびに かぞくと いきました。<br>\n  ちちは パスタを たべました。ははは サラダと ピザを たべました。<br>\n  わたしは カルボナーラを たべました。とても おいしかったです。<br>\n  でも すこし たかかったです。\n</div>",
+          "rubyHtml": "75. レストランは えきから どのぐらいですか。",
+          "options": [
+            "A) あるいて 十分",
+            "B) あるいて 五分",
+            "C) バスで 五分",
+            "D) あるいて 三分"
+          ],
+          "answer": 1,
+          "explanation": "Passage states: 'えきから あるいて 五分です。' (5 minutes on foot)."
+        },
+        {
+          "id": "q_reading_76",
+          "num": 76,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 3 — あたらしい レストラン】</strong><br>\n  わたしの まちに あたらしい レストランが できました。<br>\n  イタリアりょうりの レストランです。えきから あるいて 五分です。<br>\n  わたしは せんしゅうの にちようびに かぞくと いきました。<br>\n  ちちは パスタを たべました。ははは サラダと ピザを たべました。<br>\n  わたしは カルボナーラを たべました。とても おいしかったです。<br>\n  でも すこし たかかったです。\n</div>",
+          "rubyHtml": "76. おかあさんは なにを たべましたか。",
+          "options": [
+            "A) カルボナーラ",
+            "B) パスタ",
+            "C) サラダだけ",
+            "D) サラダと ピザ"
+          ],
+          "answer": 3,
+          "explanation": "Passage states: 'ははは サラダと ピザを たべました。' (Salad and pizza)."
+        },
+        {
+          "id": "q_reading_77",
+          "num": 77,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 3 — あたらしい レストラン】</strong><br>\n  わたしの まちに あたらしい レストランが できました。<br>\n  イタリアりょうりの レストランです。えきから あるいて 五分です。<br>\n  わたしは せんしゅうの にちようびに かぞくと いきました。<br>\n  ちちは パスタを たべました。ははは サラダと ピザを たべました。<br>\n  わたしは カルボナーラを たべました。とても おいしかったです。<br>\n  でも すこし たかかったです。\n</div>",
+          "rubyHtml": "77. レストランは どうでしたか。",
+          "options": [
+            "A) やすくて おいしい",
+            "B) ふつうだった",
+            "C) おいしいが たかい",
+            "D) まずかった"
+          ],
+          "answer": 2,
+          "explanation": "Passage states: 'とても おいしかったです。でも すこし たかかったです。' (Delicious but expensive)."
+        },
+        {
+          "id": "q_reading_78",
+          "num": 78,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 4 — スケジュール】</strong><br>\n  ＊＊＊ にほんご きょうしつ ＊＊＊<br>\n  ・クラス： まいしゅう げつようびと すいようび<br>\n  ・じかん： ごご 二時 ～ 四時<br>\n  ・ばしょ： コミュニティセンター ３かい<br>\n  ・せんせい： もり先生<br>\n  ・もちもの： ノート、えんぴつ、きょうかしょ<br>\n  ・おやすみ： しゅくじつ\n</div>",
+          "rubyHtml": "78. にほんごの クラスは なんようびですか。",
+          "options": [
+            "A) すいようびと きんようび",
+            "B) げつようびと きんようび",
+            "C) げつようびと すいようび",
+            "D) かようびと もくようび"
+          ],
+          "answer": 2,
+          "explanation": "Notice states: 'クラス： まいしゅう げつようびと すいようび' (Mon and Wed)."
+        },
+        {
+          "id": "q_reading_79",
+          "num": 79,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 4 — スケジュール】</strong><br>\n  ＊＊＊ にほんご きょうしつ ＊＊＊<br>\n  ・クラス： まいしゅう げつようびと すいようび<br>\n  ・じかん： ごご 二時 ～ 四時<br>\n  ・ばしょ： コミュニティセンター ３かい<br>\n  ・せんせい： もり先生<br>\n  ・もちもの： ノート、えんぴつ、きょうかしょ<br>\n  ・おやすみ： しゅくじつ\n</div>",
+          "rubyHtml": "79. クラスに なにを もっていきますか。",
+          "options": [
+            "A) きょうかしょだけ",
+            "B) ノート、えんぴつ、きょうかしょ",
+            "C) パソコンと ノート",
+            "D) ノートと ペン"
+          ],
+          "answer": 1,
+          "explanation": "Notice states: 'もちもの： ノート、えんぴつ、きょうかしょ'."
+        },
+        {
+          "id": "q_reading_80",
+          "num": 80,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 5 — メール】</strong><br>\n  みきさんへ<br>\n  こんにちは。おげんきですか。<br>\n  こんどの にちようび、いっしょに こうえんで はなみを しませんか。<br>\n  さくらが とても きれいですよ。<br>\n  ごぜん 十時に えきの まえで あいましょう。<br>\n  おべんとうは わたしが つくります。<br>\n  のみものを もって きて ください。<br>\n  へんじを まっています。<br>\n  ゆうこ\n</div>",
+          "rubyHtml": "80. なんようびに はなみを しますか。",
+          "options": [
+            "A) げつようび",
+            "B) にちようび",
+            "C) どようび",
+            "D) きんようび"
+          ],
+          "answer": 1,
+          "explanation": "E-mail states: 'こんどの にちようび、いっしょに こうえんで はなみを しませんか。' (Sunday)."
+        },
+        {
+          "id": "q_reading_81",
+          "num": 81,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 5 — メール】</strong><br>\n  みきさんへ<br>\n  こんにちは。おげんきですか。<br>\n  こんどの にちようび、いっしょに こうえんで はなみを しませんか。<br>\n  さくらが とても きれいですよ。<br>\n  ごぜん 十時に えきの まえで あいましょう。<br>\n  おべんとうは わたしが つくります。<br>\n  のみものを もって きて ください。<br>\n  へんじを まっています。<br>\n  ゆうこ\n</div>",
+          "rubyHtml": "81. どこで あいますか。",
+          "options": [
+            "A) みきさんの いえ",
+            "B) レストラン",
+            "C) こうえん",
+            "D) えきの まえ"
+          ],
+          "answer": 3,
+          "explanation": "E-mail states: 'ごぜん 十時に えきの まえで あいましょう。' (In front of station)."
+        },
+        {
+          "id": "q_reading_82",
+          "num": 82,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 5 — メール】</strong><br>\n  みきさんへ<br>\n  こんにちは。おげんきですか。<br>\n  こんどの にちようび、いっしょに こうえんで はなみを しませんか。<br>\n  さくらが とても きれいですよ。<br>\n  ごぜん 十時に えきの まえで あいましょう。<br>\n  おべんとうは わたしが つくります。<br>\n  のみものを もって きて ください。<br>\n  へんじを まっています。<br>\n  ゆうこ\n</div>",
+          "rubyHtml": "82. ゆうこさんは なにを つくりますか。",
+          "options": [
+            "A) ケーキ",
+            "B) のみもの",
+            "C) おかし",
+            "D) おべんとう"
+          ],
+          "answer": 3,
+          "explanation": "E-mail states: 'おべんとうは わたしが つくります。' (Bento lunchbox)."
+        },
+        {
+          "id": "q_reading_83",
+          "num": 83,
+          "sectionId": "reading",
+          "sectionTitle": "Reading Comprehension (読解)",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\">\n  <strong>【読解 5 — メール】</strong><br>\n  みきさんへ<br>\n  こんにちは。おげんきですか。<br>\n  こんどの にちようび、いっしょに こうえんで はなみを しませんか。<br>\n  さくらが とても きれいですよ。<br>\n  ごぜん 十時に えきの まえで あいましょう。<br>\n  おべんとうは わたしが つくります。<br>\n  のみものを もって きて ください。<br>\n  へんじを まっています。<br>\n  ゆうこ\n</div>",
+          "rubyHtml": "83. みきさんは なにを もっていきますか。",
+          "options": [
+            "A) おべんとう",
+            "B) かさ",
+            "C) カメラ",
+            "D) のみもの"
+          ],
+          "answer": 3,
+          "explanation": "E-mail states: 'のみものを もって きて ください。' (Drinks)."
+        }
+      ]
+    }
+  ]
+}

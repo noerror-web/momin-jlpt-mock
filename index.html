@@ -33,8 +33,14 @@
         <div class="test-selector-wrapper">
           <i class="fa-solid fa-book-bookmark"></i>
           <select id="testSelect" class="styled-select">
-            <option value="data/n5_practice_set_9.json" selected>JLPT N5 Mock Exam Set</option>
+            <option value="data/n5_mock_test_2.json" selected>📄 JLPT N5 Official Mock Exam Set 2 (PDF)</option>
+            <option value="data/n5_particles_furigana.json">🎌 JLPT N5 Particle Special Exam (Furigana)</option>
+            <option value="data/n5_practice_set_9.json">JLPT N5 Full Practice Exam Set 1</option>
+            <option value="custom_url">🔗 Load Custom JSON URL...</option>
           </select>
+          <button id="shareUrlBtn" class="icon-btn" title="Copy Direct Test URL" style="margin-left: 0.5rem;">
+            <i class="fa-solid fa-link"></i>
+          </button>
         </div>
 
         <div class="mode-toggle-group">
@@ -279,6 +285,31 @@
           </div>
           
           <div id="tgTestResult" class="tg-test-feedback hidden"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CUSTOM JSON URL MODAL -->
+    <div id="urlModal" class="modal-backdrop">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3><i class="fa-solid fa-link"></i> Load Test Dataset from URL</h3>
+          <button id="closeUrlModalBtn" class="close-btn">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="modal-desc">Enter or paste a URL to a JLPT mock test JSON file to load it into the application.</p>
+
+          <div class="input-group">
+            <label for="customJsonUrl">Test JSON URL or File Path</label>
+            <input type="text" id="customJsonUrl" placeholder="e.g. data/n5_practice_set_9.json or https://domain.com/test.json" />
+            <small class="help-text">Enter a direct HTTP/HTTPS URL or relative file path.</small>
+          </div>
+
+          <div class="modal-actions">
+            <button id="loadUrlSubmitBtn" class="btn btn-primary"><i class="fa-solid fa-download"></i> Load Dataset</button>
+          </div>
+          
+          <div id="urlStatusFeedback" class="tg-test-feedback hidden"></div>
         </div>
       </div>
     </div>

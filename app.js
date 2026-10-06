@@ -88,14 +88,64 @@ document.addEventListener('DOMContentLoaded', () => {
     tgChatId: document.getElementById('tgChatId'),
     testTgConnectionBtn: document.getElementById('testTgConnectionBtn'),
     saveConfigBtn: document.getElementById('saveConfigBtn'),
-    tgTestResult: document.getElementById('tgTestResult')
+    tgTestResult: document.getElementById('tgTestResult'),
+
+    // URL Controls & Modal
+    shareUrlBtn: document.getElementById('shareUrlBtn'),
+    urlModal: document.getElementById('urlModal'),
+    closeUrlModalBtn: document.getElementById('closeUrlModalBtn'),
+    customJsonUrlInput: document.getElementById('customJsonUrl'),
+    loadUrlSubmitBtn: document.getElementById('loadUrlSubmitBtn'),
+    urlStatusFeedback: document.getElementById('urlStatusFeedback')
   };
 
   // --- INITIALIZATION ---
   function init() {
     updateTgBadge();
-    loadTestJSON(DOM.testSelect.value);
     attachEventListeners();
+    checkUrlParametersAndLoad();
+  }
+
+  function checkUrlParametersAndLoad() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const testUrl = urlParams.get('test') || urlParams.get('url') || urlParams.get('json');
+    if (testUrl) {
+      loadTestJSON(testUrl);
+    } else {
+      loadTestJSON(DOM.testSelect.value);
+    }
+  }
+
+  function updateBrowserUrl(filePath) {
+    if (window.history && window.history.replaceState) {
+      const url = new URL(window.location);
+      url.searchParams.set('test', filePath);
+      window.history.replaceState({}, '', url);
+    }
+  }
+
+  function addOptionToTestSelect(filePath, title) {
+    let exists = false;
+    for (let opt of DOM.testSelect.options) {
+      if (opt.value === filePath) {
+        exists = true;
+        opt.selected = true;
+        break;
+      }
+    }
+    if (!exists) {
+      const newOpt = document.createElement('option');
+      newOpt.value = filePath;
+      newOpt.textContent = title || filePath;
+      newOpt.selected = true;
+      // Insert before custom_url option
+      const customOpt = DOM.testSelect.querySelector('option[value="custom_url"]');
+      if (customOpt) {
+        DOM.testSelect.insertBefore(newOpt, customOpt);
+      } else {
+        DOM.testSelect.appendChild(newOpt);
+      }
+    }
   }
 
   function updateTgBadge() {
@@ -110,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function loadTestJSON(filePath) {
     try {
       const response = await fetch(filePath);
-      if (!response.ok) throw new Error('Failed to load test file');
+      if (!response.ok) throw new Error(`HTTP error ${response.status}: Failed to load test file`);
       state.testData = await response.json();
       
       // Flatten questions list with section info attached
@@ -127,6 +177,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       });
 
+      // Synchronize dropdown & URL bar
+      addOptionToTestSelect(filePath, state.testData.title);
+      updateBrowserUrl(filePath);
+
       // Update Welcome View UI
       DOM.welcomeTitle.textContent = state.testData.title;
       DOM.welcomeDesc.textContent = `Official JLPT ${state.testData.level} format with automated score calculation and teacher alerts.`;
@@ -134,16 +188,36 @@ document.addEventListener('DOMContentLoaded', () => {
       DOM.statTotalQuestions.textContent = `${state.flatQuestions.length} Questions`;
       DOM.statPassingScore.textContent = `${state.testData.passingScore} / ${state.testData.maxScore}`;
 
+      return true;
+
     } catch (err) {
       console.error('Error loading JSON:', err);
-      alert('Unable to load test dataset. Please make sure the JSON file exists.');
+      alert(`Unable to load test dataset from URL/path: ${filePath}\nError: ${err.message}`);
+      return false;
     }
   }
 
   // --- EVENT LISTENERS ---
   function attachEventListeners() {
-    // Select Test
-    DOM.testSelect.addEventListener('change', (e) => loadTestJSON(e.target.value));
+    // Select Test & URL handling
+    DOM.testSelect.addEventListener('change', (e) => {
+      if (e.target.value === 'custom_url') {
+        // Reset selector back to current test dataset before opening modal
+        if (state.testData && state.testData.id) {
+          DOM.testSelect.value = state.testData.filePath || DOM.testSelect.options[0].value;
+        }
+        openUrlModal();
+      } else {
+        loadTestJSON(e.target.value);
+      }
+    });
+
+    // Share URL Button
+    DOM.shareUrlBtn.addEventListener('click', shareTestDirectUrl);
+
+    // URL Modal controls
+    DOM.closeUrlModalBtn.addEventListener('click', () => DOM.urlModal.classList.remove('active'));
+    DOM.loadUrlSubmitBtn.addEventListener('click', handleCustomUrlSubmission);
 
     // Mode Toggle
     DOM.modeExamBtn.addEventListener('click', () => setMode(true));
@@ -533,11 +607,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const userAnsText = userAns !== undefined ? `${letters[userAns]}: ${q.options[userAns]}` : 'Unanswered';
       const correctAnsText = `${letters[q.answer]}: ${q.options[q.answer]}`;
 
+      const questionHtml = q.rubyHtml || formatJapaneseText(q.text || '');
+
       card.innerHTML = `
         <div style="font-weight:700; color:var(--primary); margin-bottom:0.4rem;">
           Q${idx + 1}. [${q.sectionTitle}] ${q.kanji ? q.kanji : ''}
         </div>
-        <div style="font-size:1.05rem; margin-bottom:0.75rem;">${q.text}</div>
+        <div style="font-size:1.15rem; line-height:2.2; margin-bottom:0.75rem;">${questionHtml}</div>
         <div style="display:flex; gap:1rem; font-size:0.9rem; margin-bottom:0.5rem;">
           <span style="color: ${isCorrect ? 'var(--success)' : 'var(--danger)'};">
             <strong>Your Answer:</strong> ${userAnsText}
@@ -702,6 +778,52 @@ ${Object.entries(results.sectionScores).map(([secId, sec]) => {
     DOM.tgTestResult.textContent = msg;
     if (isSuccess === true) DOM.tgTestResult.classList.add('success');
     if (isSuccess === false) DOM.tgTestResult.classList.add('error');
+  }
+
+  // --- CUSTOM URL MODAL & SHARE URL HANDLERS ---
+  function openUrlModal() {
+    DOM.urlStatusFeedback.classList.add('hidden');
+    DOM.urlModal.classList.add('active');
+  }
+
+  async function handleCustomUrlSubmission() {
+    const customUrl = DOM.customJsonUrlInput.value.trim();
+    if (!customUrl) {
+      showUrlFeedback('Please enter a valid dataset URL or path', false);
+      return;
+    }
+
+    showUrlFeedback('Loading test dataset from URL...', null);
+    const success = await loadTestJSON(customUrl);
+
+    if (success) {
+      showUrlFeedback('✅ Test dataset loaded successfully!', true);
+      setTimeout(() => {
+        DOM.urlModal.classList.remove('active');
+      }, 800);
+    } else {
+      showUrlFeedback('❌ Failed to load dataset. Check URL & network CORS settings.', false);
+    }
+  }
+
+  function showUrlFeedback(msg, isSuccess) {
+    DOM.urlStatusFeedback.classList.remove('hidden', 'success', 'error');
+    DOM.urlStatusFeedback.textContent = msg;
+    if (isSuccess === true) DOM.urlStatusFeedback.classList.add('success');
+    if (isSuccess === false) DOM.urlStatusFeedback.classList.add('error');
+  }
+
+  function shareTestDirectUrl() {
+    const directUrl = window.location.href;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(directUrl).then(() => {
+        alert(`🔗 Direct Test URL copied to clipboard!\n\n${directUrl}`);
+      }).catch(err => {
+        prompt('Copy this direct test URL:', directUrl);
+      });
+    } else {
+      prompt('Copy this direct test URL:', directUrl);
+    }
   }
 
   // --- HELPER ROUTING ---
