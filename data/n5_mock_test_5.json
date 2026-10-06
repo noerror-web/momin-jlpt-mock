@@ -1,0 +1,650 @@
+{
+  "id": "jlpt-n5-mock-test-5",
+  "title": "JLPT N5 Practice Examination Set 3 (50 Questions)",
+  "level": "N5",
+  "timeLimitMinutes": 60,
+  "passingScore": 80,
+  "maxScore": 180,
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Vocabulary (もじ・ごい)",
+      "weight": 50,
+      "questions": [
+        {
+          "id": "q1",
+          "num": 1,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part A: Kanji readings)",
+          "rubyHtml": "1. <strong>今年</strong>、にほんへ いきます。",
+          "options": ["1) こんねん", "2) きょねん", "3) ことし", "4) らいねん"],
+          "answer": 2,
+          "explanation": "今年 (ことし) means 'this year'."
+        },
+        {
+          "id": "q2",
+          "num": 2,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part A: Kanji readings)",
+          "rubyHtml": "2. あの ひとは にほんごの <strong>先生</strong> です。",
+          "options": ["1) せんせい", "2) せんさい", "3) せいせん", "4) せんせ"],
+          "answer": 0,
+          "explanation": "先生 (せんせい) means 'teacher'."
+        },
+        {
+          "id": "q3",
+          "num": 3,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part A: Kanji readings)",
+          "rubyHtml": "3. この シャツは <strong>八百</strong> えんです。",
+          "options": ["1) はちびゃく", "2) はっぴゃく", "3) はちひゃく", "4) はっびゃく"],
+          "answer": 1,
+          "explanation": "八百 (はっぴゃく) means '800'."
+        },
+        {
+          "id": "q4",
+          "num": 4,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part A: Kanji readings)",
+          "rubyHtml": "4. あした <strong>病院</strong> へ いきます。",
+          "options": ["1) びよういん", "2) びょいん", "3) びょうき", "4) びょういん"],
+          "answer": 3,
+          "explanation": "病院 (びょういん) means 'hospital'."
+        },
+        {
+          "id": "q5",
+          "num": 5,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part A: Kanji readings)",
+          "rubyHtml": "5. <strong>毎週</strong>、にちようびに テニスを します。",
+          "options": ["1) まいつき", "2) まいにち", "3) まいしゅう", "4) まいとし"],
+          "answer": 2,
+          "explanation": "毎週 (まいしゅう) means 'every week'."
+        },
+        {
+          "id": "q6",
+          "num": 6,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part B: Kanji selection)",
+          "rubyHtml": "6. この <strong>かわ</strong> には さかなが たくさん います。",
+          "options": ["1) 山", "2) 川", "3) 海", "4) 池"],
+          "answer": 1,
+          "explanation": "かわ (river) is written in Kanji as 川."
+        },
+        {
+          "id": "q7",
+          "num": 7,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part B: Kanji selection)",
+          "rubyHtml": "7. あそこに <strong>ひと</strong> が います。",
+          "options": ["1) 入", "2) 八", "3) 大", "4) 人"],
+          "answer": 3,
+          "explanation": "ひと (person) is written in Kanji as 人."
+        },
+        {
+          "id": "q8",
+          "num": 8,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part B: Kanji selection)",
+          "rubyHtml": "8. あねは かみが <strong>ながい</strong> です。",
+          "options": ["1) 長い", "2) 高い", "3) 多い", "4) 古い"],
+          "answer": 0,
+          "explanation": "ながい (long) is written in Kanji as 長い."
+        },
+        {
+          "id": "q9",
+          "num": 9,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part B: Kanji selection)",
+          "rubyHtml": "9. <strong>でんしゃ</strong> で とうきょうへ いきます。",
+          "options": ["1) 電話", "2) 電気", "3) 電車", "4) 会社"],
+          "answer": 2,
+          "explanation": "でんしゃ (train) is written in Kanji as 電車."
+        },
+        {
+          "id": "q10",
+          "num": 10,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part B: Kanji selection)",
+          "rubyHtml": "10. ぎんこうは、パンやと はなやの <strong>あいだ</strong> に あります。",
+          "options": ["1) 門", "2) 間", "3) 聞", "4) 問"],
+          "answer": 1,
+          "explanation": "あいだ (between) is written in Kanji as 間."
+        },
+        {
+          "id": "q11",
+          "num": 11,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part C: Words in context)",
+          "rubyHtml": "11. てを あらってから、（　　）で ふきます。",
+          "options": ["1) カメラ", "2) カレンダー", "3) きっぷ", "4) タオル"],
+          "answer": 3,
+          "explanation": "タオル (towel) is used to wipe hands after washing."
+        },
+        {
+          "id": "q12",
+          "num": 12,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part C: Words in context)",
+          "rubyHtml": "12. びょうきですから、きょうは がっこうを（　　）。",
+          "options": ["1) しめます", "2) やすみます", "3) わたります", "4) ならびます"],
+          "answer": 1,
+          "explanation": "やすみます (be absent from / rest from) school due to illness."
+        },
+        {
+          "id": "q13",
+          "num": 13,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part C: Words in context)",
+          "rubyHtml": "13. てがみを だしに（　　）へ いきます。",
+          "options": ["1) びょういん", "2) こうばん", "3) ゆうびんきょく", "4) こうえん"],
+          "answer": 2,
+          "explanation": "ゆうびんきょく (post office) for sending a letter."
+        },
+        {
+          "id": "q14",
+          "num": 14,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part C: Words in context)",
+          "rubyHtml": "14. すみません、えんぴつを（　　）ください。わたしのは いえに わすれました。",
+          "options": ["1) かして", "2) かりて", "3) ならって", "4) あらって"],
+          "answer": 0,
+          "explanation": "かして (lend) is requested: 'Please lend me a pencil'."
+        },
+        {
+          "id": "q15",
+          "num": 15,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part C: Words in context)",
+          "rubyHtml": "15. この くつは（　　）です。もう すこし おおきい くつを ください。",
+          "options": ["1) あかるい", "2) ふとい", "3) ちいさい", "4) ながい"],
+          "answer": 2,
+          "explanation": "ちいさい (small) shoes prompt asking for bigger ones."
+        },
+        {
+          "id": "q16",
+          "num": 16,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part C: Words in context)",
+          "rubyHtml": "16. この みちを（　　）いってください。みぎにも ひだりにも まがらないでください。",
+          "options": ["1) ときどき", "2) まっすぐ", "3) だんだん", "4) ゆっくりと"],
+          "answer": 1,
+          "explanation": "まっすぐ (straight ahead) without turning right or left."
+        },
+        {
+          "id": "q17",
+          "num": 17,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part D: Similar meanings)",
+          "rubyHtml": "17. わたしの うちは がっこうの ちかくです。",
+          "options": [
+            "1) わたしの うちは がっこうから とおいです。",
+            "2) わたしの うちは がっこうより おおきいです。",
+            "3) わたしの うちは がっこうから とおくないです。",
+            "4) わたしの うちは がっこうの なかに あります。"
+          ],
+          "answer": 2,
+          "explanation": "ちかく (near) means とおくない (not far)."
+        },
+        {
+          "id": "q18",
+          "num": 18,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part D: Similar meanings)",
+          "rubyHtml": "18. あしたの つぎの ひに いきます。",
+          "options": [
+            "1) きのう いきました。",
+            "2) きょう いきます。",
+            "3) あした いきます。",
+            "4) あさって いきます。"
+          ],
+          "answer": 3,
+          "explanation": "あしたのつぎのひ (the day after tomorrow) corresponds to あさって."
+        },
+        {
+          "id": "q19",
+          "num": 19,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part D: Similar meanings)",
+          "rubyHtml": "19. この みせは ゆうめいです。",
+          "options": [
+            "1) たくさんの ひとが この みせを しっています。",
+            "2) たくさんの ひとが この みせで はたらいています。",
+            "3) この みせは とても あたらしいです。",
+            "4) この みせは とても ひろいです。"
+          ],
+          "answer": 0,
+          "explanation": "ゆうめい (famous) means many people know it (たくさんのひとがしっています)."
+        },
+        {
+          "id": "q20",
+          "num": 20,
+          "sectionId": "vocab",
+          "sectionTitle": "Vocabulary (Part D: Similar meanings)",
+          "rubyHtml": "20. きょうは ひまです。",
+          "options": [
+            "1) きょうは いそがしいです。",
+            "2) きょうは じかんが あります。",
+            "3) きょうは つかれています。",
+            "4) きょうは げんきでは ありません。"
+          ],
+          "answer": 1,
+          "explanation": "ひま (free/not busy) means じかんがあります (have time)."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar (ぶんぽう)",
+      "weight": 70,
+      "questions": [
+        {
+          "id": "q21",
+          "num": 21,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "21. わたしは いま、なにか つめたい ものが（　　）。",
+          "options": [
+            "1) のみたいです",
+            "2) のみませんでした",
+            "3) のんでください",
+            "4) のんでいました"
+          ],
+          "answer": 0,
+          "explanation": "Desire marker ~たいです (のみたいです = want to drink)."
+        },
+        {
+          "id": "q22",
+          "num": 22,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "22. あには がくせいです。わたし（　　）がくせいです。",
+          "options": ["1) を", "2) に", "3) も", "4) で"],
+          "answer": 2,
+          "explanation": "Inclusive particle も ('I am also a student')."
+        },
+        {
+          "id": "q23",
+          "num": 23,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "23. おとうとは サッカー（　　）じょうずです。",
+          "options": ["1) に", "2) を", "3) で", "4) が"],
+          "answer": 3,
+          "explanation": "Target of skill/ability adjective じょうず takes particle が."
+        },
+        {
+          "id": "q24",
+          "num": 24,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "24. この みせは あさ１０じ（　　）よる８じまで あいています。",
+          "options": ["1) まで", "2) から", "3) より", "4) だけ"],
+          "answer": 1,
+          "explanation": "Starting time particle から ('from 10:00 AM')."
+        },
+        {
+          "id": "q25",
+          "num": 25,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "25. Ａ：「もう しゅくだいを しましたか。」<br>Ｂ：「いいえ、まだ（　　）。」",
+          "options": [
+            "1) します",
+            "2) しました",
+            "3) していません",
+            "4) してください"
+          ],
+          "answer": 2,
+          "explanation": "Negative status response: まだ していません (not done yet)."
+        },
+        {
+          "id": "q26",
+          "num": 26,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "26. あぶないですから、ここで（　　）ください。",
+          "options": [
+            "1) あそびます",
+            "2) あそばないで",
+            "3) あそぶ",
+            "4) あそびました"
+          ],
+          "answer": 1,
+          "explanation": "Prohibition request ~ないでください (あそばないでください = please don't play)."
+        },
+        {
+          "id": "q27",
+          "num": 27,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "27. わたしは いしゃでは（　　）。",
+          "options": [
+            "1) ないでした",
+            "2) ないですでした",
+            "3) ありませんでしたです",
+            "4) ありません"
+          ],
+          "answer": 3,
+          "explanation": "Polite negative predicate: ではありません (is not)."
+        },
+        {
+          "id": "q28",
+          "num": 28,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "28. さとうさんは どこ（　　）いません。",
+          "options": ["1) にも", "2) まで", "3) だけ", "4) より"],
+          "answer": 0,
+          "explanation": "Location question word + にも + negative verb (どこにもいません = is nowhere to be found)."
+        },
+        {
+          "id": "q29",
+          "num": 29,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "29. おんがくを（　　）ながら、そうじを します。",
+          "options": ["1) きく", "2) きき", "3) きいて", "4) きいた"],
+          "answer": 1,
+          "explanation": "Simultaneous action ~ながら takes verb stem (ききながら)."
+        },
+        {
+          "id": "q30",
+          "num": 30,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "30. せんしゅうの しけんは あまり（　　）。",
+          "options": [
+            "1) むずかしかったです",
+            "2) むずかしいでした",
+            "3) むずかしいです",
+            "4) むずかしくなかったです"
+          ],
+          "answer": 3,
+          "explanation": "あまり + past negative of い-adjective (むずかしくなかったです)."
+        },
+        {
+          "id": "q31",
+          "num": 31,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "31. きのう、３じかん（　　）べんきょうしました。",
+          "options": ["1) ごろ", "2) に", "3) ぐらい", "4) へ"],
+          "answer": 2,
+          "explanation": "Duration approximation marker ぐらい ('for about 3 hours')."
+        },
+        {
+          "id": "q32",
+          "num": 32,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part A: Grammar selection)",
+          "rubyHtml": "32. この でんしゃは しんじゅくえき（　　）とおります。",
+          "options": ["1) に", "2) が", "3) で", "4) を"],
+          "answer": 3,
+          "explanation": "Passage through space marker を with verb とおる (しんじゅくえきを とおります)."
+        },
+        {
+          "id": "q33",
+          "num": 33,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part B: Sentence arrangement)",
+          "rubyHtml": "33. どんな <strong style=\"color:#ec4899; text-decoration:underline;\">【★ いちばん】</strong> ですか。<br><small style=\"color:var(--text-muted);\">Choices: 1) が 2) すき 3) たべもの 4) いちばん</small>",
+          "options": ["1) が", "2) すき", "3) たべもの", "4) いちばん"],
+          "answer": 3,
+          "explanation": "Correct order: たべもの(3) → が(1) → いちばん(4) → すき(2). The ★ position is いちばん (4)."
+        },
+        {
+          "id": "q34",
+          "num": 34,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part B: Sentence arrangement)",
+          "rubyHtml": "34. ここは <strong style=\"color:#ec4899; text-decoration:underline;\">【★ すんでいる】</strong> です。<br><small style=\"color:var(--text-muted);\">Choices: 1) すんでいる 2) わたし 3) まち 4) が</small>",
+          "options": ["1) すんでいる", "2) わたし", "3) まち", "4) が"],
+          "answer": 0,
+          "explanation": "Correct order: わたし(2) → が(4) → すんでいる(1) → まち(3). The ★ position is すんでいる (1)."
+        },
+        {
+          "id": "q35",
+          "num": 35,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part B: Sentence arrangement)",
+          "rubyHtml": "35. Ａ：「<strong style=\"color:#ec4899; text-decoration:underline;\">【★ も】</strong>。」 Ｂ：「はい、どうぞ。」<br><small style=\"color:var(--text-muted);\">Choices: 1) も 2) つかって 3) いいですか 4) この ペンを</small>",
+          "options": ["1) も", "2) つかって", "3) いいですか", "4) この ペンを"],
+          "answer": 0,
+          "explanation": "Correct order: この ペンを(4) → つかって(2) → も(1) → いいですか(3). The ★ position is も (1)."
+        },
+        {
+          "id": "q36",
+          "num": 36,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part B: Sentence arrangement)",
+          "rubyHtml": "36. あの <strong style=\"color:#ec4899; text-decoration:underline;\">【★ は】</strong> ですか。<br><small style=\"color:var(--text-muted);\">Choices: 1) おとこの 2) は 3) ひと 4) がくせい</small>",
+          "options": ["1) おとこの", "2) は", "3) ひと", "4) がくせい"],
+          "answer": 1,
+          "explanation": "Correct order: おとこの(1) → ひと(3) → は(2) → がくせい(4). The ★ position is は (2)."
+        },
+        {
+          "id": "q37",
+          "num": 37,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part C: Grammar in a passage)",
+          "passageHtml": "<div style=\"background: rgba(99, 102, 241, 0.08); border-left: 4px solid #6366f1; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.9;\"><strong>【ぶんぽう・文章題】</strong><br>うちには ねこが いっぴき います。なまえは ミミです。<br>ミミは しろくて、<strong>［37］</strong> ねこです。<br>まいあさ、わたしは ミミ <strong>［38］</strong> ごはんを あげます。ミミは ごはんを たべると、まどの そばで <strong>［39］</strong>。ときどき、にわで あそびます。<br>よるは、わたしの ベッドの した <strong>［40］</strong> ねます。</div>",
+          "rubyHtml": "37. ［37］に入るもっともよいものをひとつえらびなさい。",
+          "options": [
+            "1) ちいさく",
+            "2) ちいさい",
+            "3) ちいさいに",
+            "4) ちいさいな"
+          ],
+          "answer": 1,
+          "explanation": "Direct noun modification by い-adjective: ちいさい ねこ."
+        },
+        {
+          "id": "q38",
+          "num": 38,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part C: Grammar in a passage)",
+          "passageHtml": "<div style=\"background: rgba(99, 102, 241, 0.08); border-left: 4px solid #6366f1; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.9;\"><strong>【ぶんぽう・文章題】</strong><br>うちには ねこが いっぴき います。なまえは ミミです。<br>ミミは しろくて、［37］ ねこです。<br>まいあさ、わたしは ミミ <strong>［38］</strong> ごはんを あげます。ミミは ごはんを たべると、まどの そばで ［39］。ときどき、にわで あそびます。<br>よるは、わたしの ベッドの した ［40］ ねます。</div>",
+          "rubyHtml": "38. ［38］に入るもっともよいものをひとつえらびなさい。",
+          "options": ["1) を", "2) が", "3) に", "4) と"],
+          "answer": 2,
+          "explanation": "Recipient particle に with あげる (ミミに ごはんを あげる)."
+        },
+        {
+          "id": "q39",
+          "num": 39,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part C: Grammar in a passage)",
+          "passageHtml": "<div style=\"background: rgba(99, 102, 241, 0.08); border-left: 4px solid #6366f1; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.9;\"><strong>【ぶんぽう・文章題】</strong><br>うちには ねこが いっぴき います。なまえは ミミです。<br>ミミは しろくて、［37］ ねこです。<br>まいあさ、わたしは ミミ ［38］ ごはんを あげます。ミミは ごはんを たべると、まどの そばで <strong>［39］</strong>。ときどき、にわで あそびます。<br>よるは、わたしの ベッドの した ［40］ ねます。</div>",
+          "rubyHtml": "39. ［39］に入るもっともよいものをひとつえらびなさい。",
+          "options": [
+            "1) ねます",
+            "2) ねてください",
+            "3) ねましょう",
+            "4) ねたいです"
+          ],
+          "answer": 0,
+          "explanation": "Habitual state predicate: ねます (sleeps near window)."
+        },
+        {
+          "id": "q40",
+          "num": 40,
+          "sectionId": "grammar",
+          "sectionTitle": "Grammar (Part C: Grammar in a passage)",
+          "passageHtml": "<div style=\"background: rgba(99, 102, 241, 0.08); border-left: 4px solid #6366f1; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.9;\"><strong>【ぶんぽう・文章題】</strong><br>うちには ねこが いっぴき います。なまえは ミミです。<br>ミミは しろくて、［37］ ねこです。<br>まいあさ、わたしは ミミ ［38］ ごはんを あげます。ミミは ごはんを たべると、まどの そばで ［39］。ときどき、にわで あそびます。<br>よるは、わたしの ベッドの した <strong>［40］</strong> ねます。</div>",
+          "rubyHtml": "40. ［40］に入るもっともよいものをひとつえらびなさい。",
+          "options": ["1) を", "2) が", "3) と", "4) で"],
+          "answer": 3,
+          "explanation": "Action location particle で (ベッドの したで ねます)."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Reading (どっかい)",
+      "weight": 60,
+      "questions": [
+        {
+          "id": "q41",
+          "num": 41,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 1: A forgotten hat",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 1 — ぼうしを わすれた ひとへ】</strong><br>きのう、きょうしつに あおい ぼうしが ありました。<br>いまは、せんせいの つくえの うえに あります。<br>ぼうしを わすれた ひとは、きょうの じゅぎょうの あとで、せんせいに いってください。</div>",
+          "rubyHtml": "41. ぼうしは いま どこに ありますか。",
+          "options": [
+            "1) がくせいの いすの した",
+            "2) せんせいの つくえの うえ",
+            "3) きょうしつの そと",
+            "4) としょかんの なか"
+          ],
+          "answer": 1,
+          "explanation": "Notice states: 'いまは、せんせいの つくえの うえに あります'."
+        },
+        {
+          "id": "q42",
+          "num": 42,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 1: A forgotten hat",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 1 — ぼうしを わすれた ひとへ】</strong><br>きのう、きょうしつに あおい ぼうしが ありました。<br>いまは、せんせいの つくえの うえに あります。<br>ぼうしを わすれた ひとは、きょうの じゅぎょうの あとで、せんせいに いってください。</div>",
+          "rubyHtml": "42. ぼうしを わすれた ひとは、いつ せんせいに いいますか。",
+          "options": [
+            "1) きのうの じゅぎょうの まえ",
+            "2) きょうの じゅぎょうの まえ",
+            "3) あしたの じゅぎょうの あと",
+            "4) きょうの じゅぎょうの あと"
+          ],
+          "answer": 3,
+          "explanation": "Notice states: 'きょうの じゅぎょうの あとで、せんせいに いってください'."
+        },
+        {
+          "id": "q43",
+          "num": 43,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 2: A bus timetable",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 2 — どうぶつえんへ いく バス】</strong><br><table style=\"width:100%; border-collapse:collapse; margin:0.5rem 0;\"><tr style=\"border-bottom:1px solid rgba(255,255,255,0.2);\"><th style=\"text-align:left; padding:0.4rem;\">えきを でる じかん</th><th style=\"text-align:left; padding:0.4rem;\">どうぶつえんに つく じかん</th></tr><tr><td style=\"padding:0.4rem;\">ごぜん９じ１０ぷん</td><td style=\"padding:0.4rem;\">ごぜん９じ４０ぷん</td></tr><tr><td style=\"padding:0.4rem;\">ごぜん１０じ</td><td style=\"padding:0.4rem;\">ごぜん１０じ３０ぷん</td></tr><tr><td style=\"padding:0.4rem;\">ごぜん１０じ４０ぷん</td><td style=\"padding:0.4rem;\">ごぜん１１じ１０ぷん</td></tr></table>※ バスの おかね / おとな：２００えん / こども：１００えん<br>※ どうぶつえんは ごぜん１０じに あきます。</div>",
+          "rubyHtml": "43. ごぜん１０じに えきを でる バスは、なんじに どうぶつえんに つきますか。",
+          "options": [
+            "1) ごぜん１０じ１０ぷん",
+            "2) ごぜん１０じ２０ぷん",
+            "3) ごぜん１０じ３０ぷん",
+            "4) ごぜん１０じ４０ぷん"
+          ],
+          "answer": 2,
+          "explanation": "Timetable states bus leaving station at 10:00 AM arrives at zoo at 10:30 AM (ごぜん１０じ３０ぷん)."
+        },
+        {
+          "id": "q44",
+          "num": 44,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 2: A bus timetable",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 2 — どうぶつえんへ いく バス】</strong><br><table style=\"width:100%; border-collapse:collapse; margin:0.5rem 0;\"><tr style=\"border-bottom:1px solid rgba(255,255,255,0.2);\"><th style=\"text-align:left; padding:0.4rem;\">えきを でる じかん</th><th style=\"text-align:left; padding:0.4rem;\">どうぶつえんに つく じかん</th></tr><tr><td style=\"padding:0.4rem;\">ごぜん９じ１０ぷん</td><td style=\"padding:0.4rem;\">ごぜん９じ４０ぷん</td></tr><tr><td style=\"padding:0.4rem;\">ごぜん１0じ</td><td style=\"padding:0.4rem;\">ごぜん１０じ３０ぷん</td></tr><tr><td style=\"padding:0.4rem;\">ごぜん１０じ４０ぷん</td><td style=\"padding:0.4rem;\">ごぜん１１じ１０ぷん</td></tr></table>※ バスの おかね / おとな：２００えん / こども：１００えん<br>※ どうぶつえんは ごぜん１０じに あきます。</div>",
+          "rubyHtml": "44. ごぜん１０じ３０ぷんまでに どうぶつえんに つきたいです。のることが できる いちばん おそい バスは、なんじに えきを でますか。",
+          "options": [
+            "1) ごぜん９じ１０ぷん",
+            "2) ごぜん１０じ",
+            "3) ごぜん１０じ４０ぷん",
+            "4) ごぜん１１じ１０ぷん"
+          ],
+          "answer": 1,
+          "explanation": "The latest bus arriving at or before 10:30 AM leaves station at 10:00 AM (ごぜん１０じ)."
+        },
+        {
+          "id": "q45",
+          "num": 45,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 2: A bus timetable",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 2 — どうぶつえんへ いく バス】</strong><br><table style=\"width:100%; border-collapse:collapse; margin:0.5rem 0;\"><tr style=\"border-bottom:1px solid rgba(255,255,255,0.2);\"><th style=\"text-align:left; padding:0.4rem;\">えきを でる じかん</th><th style=\"text-align:left; padding:0.4rem;\">どうぶつえんに つく じかん</th></tr><tr><td style=\"padding:0.4rem;\">ごぜん９じ１０ぷん</td><td style=\"padding:0.4rem;\">ごぜん９じ４０ぷん</td></tr><tr><td style=\"padding:0.4rem;\">ごぜん１０じ</td><td style=\"padding:0.4rem;\">ごぜん１０じ３０ぷん</td></tr><tr><td style=\"padding:0.4rem;\">ごぜん１０じ４０ぷん</td><td style=\"padding:0.4rem;\">ごぜん１１じ１０ぷん</td></tr></table>※ バスの おかね / おとな：２００えん / こども：１００えん<br>※ どうぶつえんは ごぜん１０じに あきます。</div>",
+          "rubyHtml": "45. おとな ひとりと こども ふたりが バスに のります。ぜんぶで いくらですか。",
+          "options": [
+            "1) ４００えん",
+            "2) ３００えん",
+            "3) ５００えん",
+            "4) ６００えん"
+          ],
+          "answer": 0,
+          "explanation": "1 Adult (200 yen) + 2 Children (100 yen × 2) = 400 yen (４００えん)."
+        },
+        {
+          "id": "q46",
+          "num": 46,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 3: A new apartment",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 3 — あたらしい アパート】</strong><br>わたしは せんげつから、あたらしい アパートに すんでいます。<br>まえの アパートは えきから ちかくて、べんりでした。でも、へやが せまくて、あまり あかるくありませんでした。<br>いまの アパートから えきまで、あるいて ２０ぷん かかります。すこし とおいですが、へやが ひろくて あかるいです。ちかくに おおきい こうえんも あります。<br>わたしは はなが すきです。まいあさ、ベランダの はなに みずを あげます。にちようびは こうえんを さんぽします。<br>いまの アパートが とても すきです。</div>",
+          "rubyHtml": "46. まえの アパートは どうでしたか。",
+          "options": [
+            "1) えきから とおくて、へやが ひろかったです。",
+            "2) えきから ちかくて、へやが あかるかったです。",
+            "3) えきから とおくて、へやが くらかったです。",
+            "4) えきから ちかくて、へやが せまかったです。"
+          ],
+          "answer": 3,
+          "explanation": "Text states: 'まえの アパートは えきから ちかくて... でも、へやが せまくて'."
+        },
+        {
+          "id": "q47",
+          "num": 47,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 3: A new apartment",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 3 — あたらしい アパート】</strong><br>わたしは せんげつから、あたらしい アパートに すんでいます。<br>まえの アパートは えきから ちかくて、べんりでした。でも、へやが せまくて、あまり あかるくありませんでした。<br>いまの アパートから えきまで、あるいて ２０ぷん かかります。すこし とおいですが、へやが ひろくて あかるいです。ちかくに おおきい こうえんも あります。<br>わたしは はなが すきです。まいあさ、ベランダの はなに みずを あげます。にちようびは こうえんを さんぽします。<br>いまの アパートが とても すきです。</div>",
+          "rubyHtml": "47. いまの アパートについて、ただしい ものは どれですか。",
+          "options": [
+            "1) えきまで あるいて ５ふんです。",
+            "2) ちかくに こうえんが あります。",
+            "3) へやが せまくて くらいです。",
+            "4) えきの なかに あります。"
+          ],
+          "answer": 1,
+          "explanation": "Text states: 'ちかくに おおきい こうえんも あります'."
+        },
+        {
+          "id": "q48",
+          "num": 48,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 3: A new apartment",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 3 — あたらしい アパート】</strong><br>わたしは せんげつから、あたらしい アパートに すんでいます。<br>まえの アパートは えきから ちかくて、べんりでした。でも、へやが せまくて、あまり あかるくありませんでした。<br>いまの アパートから えきまで、あるいて ２０ぷん かかります。すこし とおいですが、へやが ひろくて あかるいです。ちかくに おおきい こうえんも あります。<br>わたしは はなが すきです。まいあさ、ベランダの はなに みずを あげます。にちようびは こうえんを さんぽします。<br>いまの アパートが とても すきです。</div>",
+          "rubyHtml": "48. この ひとは にちようびに なにを しますか。",
+          "options": [
+            "1) はなを かいます。",
+            "2) へやを そうじします。",
+            "3) こうえんを さんぽします。",
+            "4) ともだちと うみへ いきます。"
+          ],
+          "answer": 2,
+          "explanation": "Text states: 'にちようびは こうえんを さんぽします'."
+        },
+        {
+          "id": "q49",
+          "num": 49,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 4: Plans to play tennis",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 4 — テニスの やくそく】</strong><br><strong>【アリさんへ】</strong><br>どようびの ごご、いっしょに テニスを しませんか。<br>２じに こうえんの いりぐちで あいましょう。<br>ラケットは わたしが ふたつ もっていきます。のみものは じぶんで もってきてください。<br>なお<br><br><strong>【なおさんへ】</strong><br>いいですね。テニスを しましょう。<br>わたしは ラケットが ありません。ラケットを かしてください。<br>のみものを もっていきます。どようびに あいましょう。<br>アリ</div>",
+          "rubyHtml": "49. だれが ラケットを もっていきますか。",
+          "options": [
+            "1) なおさんと アリさんが ひとつずつ もっていきます。",
+            "2) アリさんが ふたつ もっていきます。",
+            "3) だれも もっていきません。",
+            "4) なおさんが ふたつ もっていきます。"
+          ],
+          "answer": 3,
+          "explanation": "Nao's message states: 'ラケットは わたしが ふたつ もっていきます' (Nao brings 2 rackets)."
+        },
+        {
+          "id": "q50",
+          "num": 50,
+          "sectionId": "reading",
+          "sectionTitle": "Reading 4: Plans to play tennis",
+          "passageHtml": "<div style=\"background: rgba(16, 185, 129, 0.08); border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 8px; font-size: 1.05rem; line-height: 1.8;\"><strong>【Reading 4 — テニスの やくそく】</strong><br><strong>【アリさんへ】</strong><br>どようびの ごご、いっしょに テニスを しませんか。<br>２じに こうえんの いりぐちで あいましょう。<br>ラケットは わたしが ふたつ もっていきます。のみものは じぶんで もってきてください。<br>なお<br><br><strong>【なおさんへ】</strong><br>いいですね。テニスを しましょう。<br>わたしは ラケットが ありません。ラケットを かしてください。<br>のみものを もっていきます。どようびに あいましょう。<br>アリ</div>",
+          "rubyHtml": "50. アリさんは なにを もっていきますか。",
+          "options": [
+            "1) のみもの",
+            "2) ラケット",
+            "3) おべんとう",
+            "4) ボール"
+          ],
+          "answer": 0,
+          "explanation": "Ali's message states: 'のみものを もっていきます' (Ali brings drinks)."
+        }
+      ]
+    }
+  ]
+}
